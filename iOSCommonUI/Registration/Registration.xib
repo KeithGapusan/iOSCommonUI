@@ -11,8 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Registration" customModule="iOSCommonUI" customModuleProvider="target">
             <connections>
-                <outlet property="btnBack" destination="Baw-ZE-wD2" id="bax-Ge-3Xr"/>
-                <outlet property="btnDone" destination="Baw-ZE-wD2" id="22w-qN-4xn"/>
+                <outlet property="btnBack" destination="Qem-mQ-YcY" id="44D-75-GG7"/>
+                <outlet property="btnDone" destination="Baw-ZE-wD2" id="Dpu-Wn-wh7"/>
                 <outlet property="lbTitle" destination="RFq-RK-AHf" id="FRD-Km-H9t"/>
                 <outlet property="tfConfirmPassword" destination="Yl2-hQ-dwe" id="TtV-yQ-koQ"/>
                 <outlet property="tfEmail" destination="qKU-vr-Xec" id="g2f-or-lKA"/>
