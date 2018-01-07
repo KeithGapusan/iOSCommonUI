@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="BADABB__.TTF">
+            <string>BadaBoomBB</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Registration" customModule="iOSCommonUI" customModuleProvider="target">
             <connections>
@@ -172,10 +177,38 @@
                         <constraint firstItem="4zR-0j-3xb" firstAttribute="centerY" secondItem="uw2-uQ-pJs" secondAttribute="centerY" id="yFi-cU-OUY"/>
                     </constraints>
                 </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJp-Md-2xv" userLabel="RFIDViewHolder">
+                    <rect key="frame" x="49" y="535" width="277" height="45"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="QE5-cL-gHE">
+                            <rect key="frame" x="0.0" y="2.5" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="X3l-ae-SBN"/>
+                                <constraint firstAttribute="height" constant="40" id="wiM-Yt-fVp"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="RFID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xP2-Ua-ymC">
+                            <rect key="frame" x="40" y="0.0" width="237" height="45"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="QE5-cL-gHE" firstAttribute="centerY" secondItem="eJp-Md-2xv" secondAttribute="centerY" id="1En-KO-vkM"/>
+                        <constraint firstItem="xP2-Ua-ymC" firstAttribute="leading" secondItem="QE5-cL-gHE" secondAttribute="trailing" id="4Cb-FI-5W8"/>
+                        <constraint firstAttribute="trailing" secondItem="xP2-Ua-ymC" secondAttribute="trailing" id="CbT-3m-mJq"/>
+                        <constraint firstItem="QE5-cL-gHE" firstAttribute="leading" secondItem="eJp-Md-2xv" secondAttribute="leading" id="ivN-Ek-3oV"/>
+                        <constraint firstItem="xP2-Ua-ymC" firstAttribute="top" secondItem="eJp-Md-2xv" secondAttribute="top" id="rsJ-lh-SFs"/>
+                        <constraint firstAttribute="bottom" secondItem="xP2-Ua-ymC" secondAttribute="bottom" id="s1R-xh-aDk"/>
+                        <constraint firstAttribute="trailing" secondItem="xP2-Ua-ymC" secondAttribute="trailing" id="zEg-MU-llL"/>
+                    </constraints>
+                </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CREATE YOUR ACCOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFq-RK-AHf">
                     <rect key="frame" x="49" y="103" width="277" height="93"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                    <fontDescription key="fontDescription" name="BadaBoomBB" family="BadaBoom BB" pointSize="33"/>
                     <color key="textColor" red="0.97828383279999998" green="0.97828383279999998" blue="0.97828383279999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -198,22 +231,35 @@
                         <color key="titleColor" red="0.77772027254104614" green="0.14202827215194702" blue="0.16232296824455261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yumi" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-DH-OAZ">
+                    <rect key="frame" x="147" y="117" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Q9q-IS-PPc"/>
+                        <constraint firstAttribute="height" constant="80" id="e3R-Aj-h4H"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="eJp-Md-2xv" firstAttribute="height" secondItem="uw2-uQ-pJs" secondAttribute="height" id="6El-UB-Wpc"/>
                 <constraint firstItem="wFU-YW-ltn" firstAttribute="top" secondItem="ZBu-Th-p2y" secondAttribute="bottom" constant="15" id="6xe-GA-oOF"/>
                 <constraint firstItem="uw2-uQ-pJs" firstAttribute="top" secondItem="MbY-U7-ROv" secondAttribute="bottom" constant="15" id="ASS-0p-Eh2"/>
                 <constraint firstAttribute="trailing" secondItem="Baw-ZE-wD2" secondAttribute="trailing" constant="35" id="DU4-rg-8G0"/>
                 <constraint firstAttribute="trailing" secondItem="MbY-U7-ROv" secondAttribute="trailing" constant="49" id="F7n-i3-Jyr"/>
                 <constraint firstItem="MbY-U7-ROv" firstAttribute="centerX" secondItem="az6-hQ-lvh" secondAttribute="centerX" id="HiD-Gd-Ziw"/>
+                <constraint firstItem="ZBu-Th-p2y" firstAttribute="top" secondItem="3b7-DH-OAZ" secondAttribute="bottom" constant="40" id="KH9-tm-JsP"/>
                 <constraint firstItem="Baw-ZE-wD2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="LaU-DV-zGv"/>
+                <constraint firstItem="eJp-Md-2xv" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NUe-6b-cax"/>
                 <constraint firstItem="MbY-U7-ROv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="49" id="QNA-9o-eFe"/>
-                <constraint firstItem="Baw-ZE-wD2" firstAttribute="top" secondItem="uw2-uQ-pJs" secondAttribute="bottom" constant="80" id="Rk3-RR-YHp"/>
+                <constraint firstItem="Baw-ZE-wD2" firstAttribute="top" secondItem="eJp-Md-2xv" secondAttribute="bottom" constant="22" id="SOr-jG-YP6"/>
                 <constraint firstAttribute="bottom" secondItem="Baw-ZE-wD2" secondAttribute="bottom" constant="20" id="ZCH-rZ-hMn"/>
                 <constraint firstAttribute="trailing" secondItem="wFU-YW-ltn" secondAttribute="trailing" constant="49" id="ZJE-56-GS6"/>
+                <constraint firstItem="3b7-DH-OAZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="asM-dW-XK5"/>
                 <constraint firstItem="MbY-U7-ROv" firstAttribute="width" secondItem="az6-hQ-lvh" secondAttribute="width" id="bwL-Qj-ohj"/>
                 <constraint firstAttribute="trailing" secondItem="uw2-uQ-pJs" secondAttribute="trailing" constant="49" id="dqP-tM-2B9"/>
+                <constraint firstItem="eJp-Md-2xv" firstAttribute="width" secondItem="uw2-uQ-pJs" secondAttribute="width" id="foN-g7-YrA"/>
                 <constraint firstItem="uw2-uQ-pJs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="49" id="gdh-7s-PJk"/>
+                <constraint firstItem="eJp-Md-2xv" firstAttribute="top" secondItem="uw2-uQ-pJs" secondAttribute="bottom" constant="13" id="icf-4X-jLr"/>
                 <constraint firstItem="ZBu-Th-p2y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="49" id="nUe-e5-O1X"/>
                 <constraint firstAttribute="trailing" secondItem="ZBu-Th-p2y" secondAttribute="trailing" constant="49" id="oq9-g5-cng"/>
                 <constraint firstItem="MbY-U7-ROv" firstAttribute="top" secondItem="az6-hQ-lvh" secondAttribute="bottom" constant="15" id="tOR-R3-nD3"/>
@@ -228,5 +274,6 @@
         <image name="First_Name_Icon" width="23" height="23"/>
         <image name="Mail_Icon" width="24" height="18"/>
         <image name="Password_Icon" width="17" height="22"/>
+        <image name="Yumi" width="47" height="52"/>
     </resources>
 </document>
