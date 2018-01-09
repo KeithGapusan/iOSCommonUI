@@ -10,7 +10,8 @@ import UIKit
 
 public class Registration: UIView {
 
-        @IBOutlet public weak var lbTitle: UILabel!
+    @IBOutlet public weak var imgProfile: UIImageView!
+    @IBOutlet public weak var lbTitle: UILabel!
 
         @IBOutlet public weak var tfFirstName: UITextField!
         @IBOutlet public weak var tfLastName: UITextField!
@@ -20,6 +21,8 @@ public class Registration: UIView {
 
         @IBOutlet public weak var btnDone: UIButton!
         @IBOutlet public weak var btnBack: UIButton!
+     @IBOutlet public weak var tfRF: UITextField!
+    @IBOutlet public weak var viewHolderRF: UIView!
     
     @IBOutlet public var view: UIView!
     public required init?(coder aDecoder: NSCoder) {

@@ -18,6 +18,7 @@
             <connections>
                 <outlet property="btnBack" destination="Qem-mQ-YcY" id="44D-75-GG7"/>
                 <outlet property="btnDone" destination="Baw-ZE-wD2" id="Dpu-Wn-wh7"/>
+                <outlet property="imgProfile" destination="3b7-DH-OAZ" id="EVj-1B-QGw"/>
                 <outlet property="lbTitle" destination="RFq-RK-AHf" id="FRD-Km-H9t"/>
                 <outlet property="tfConfirmPassword" destination="Yl2-hQ-dwe" id="TtV-yQ-koQ"/>
                 <outlet property="tfEmail" destination="qKU-vr-Xec" id="g2f-or-lKA"/>
@@ -268,6 +269,11 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <point key="canvasLocation" x="75.5" y="71.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="DeB-pX-C2d">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </view>
     </objects>
     <resources>
