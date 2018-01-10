@@ -25,7 +25,9 @@
                 <outlet property="tfFirstName" destination="Ggg-uW-ppq" id="S3B-b0-9cs"/>
                 <outlet property="tfLastName" destination="97g-Eq-ahq" id="KKe-ve-GMK"/>
                 <outlet property="tfPassword" destination="ePa-XF-C4z" id="HJi-jn-bEl"/>
+                <outlet property="tfRF" destination="xP2-Ua-ymC" id="0sk-xp-CLA"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="2ca-HO-LJR"/>
+                <outlet property="viewHolderRF" destination="eJp-Md-2xv" id="Orh-oq-8iq"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
