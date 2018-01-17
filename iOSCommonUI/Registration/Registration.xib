@@ -229,7 +229,7 @@
                     </state>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yumi" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-DH-OAZ">
-                    <rect key="frame" x="147" y="84.5" width="80" height="80"/>
+                    <rect key="frame" x="147" y="85" width="80" height="80"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="80" id="Q9q-IS-PPc"/>
                         <constraint firstAttribute="height" constant="80" id="e3R-Aj-h4H"/>
