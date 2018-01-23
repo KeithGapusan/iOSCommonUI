@@ -209,7 +209,7 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CREATE YOUR ACCOUNT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFq-RK-AHf">
-                    <rect key="frame" x="49" y="103" width="277" height="38.5"/>
+                    <rect key="frame" x="49" y="103" width="277" height="42"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="277" id="rh6-Hu-sRZ"/>
                     </constraints>
