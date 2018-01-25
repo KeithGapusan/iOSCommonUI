@@ -228,7 +228,7 @@
                         <color key="titleColor" red="0.96934486040000001" green="0.96934486040000001" blue="0.96934486040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yumi" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-DH-OAZ">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yumi" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-DH-OAZ">
                     <rect key="frame" x="147" y="83" width="80" height="80"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="80" id="Q9q-IS-PPc"/>
