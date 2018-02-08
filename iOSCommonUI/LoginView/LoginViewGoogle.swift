@@ -24,8 +24,8 @@ public class LoginViewGoogle: UIView, UITextFieldDelegate {
         
         public required init?(coder aDecoder: NSCoder) {
             super .init(coder: aDecoder)
-            let bundleIdentifier = Bundle(for: LoginView.self)
-            UINib(nibName: "LoginView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
+            let bundleIdentifier = Bundle(for: LoginViewGoogle.self)
+            UINib(nibName: "LoginViewGoogle", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
             addSubview(view)
             view.frame = self.bounds
         }
