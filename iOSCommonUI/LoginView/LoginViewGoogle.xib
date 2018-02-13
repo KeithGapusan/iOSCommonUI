@@ -33,7 +33,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sacNewLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Uvh-uB-OFr">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uvh-uB-OFr">
                     <rect key="frame" x="123" y="60" width="128" height="128"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="Kad-kf-qFf"/>
@@ -235,6 +235,5 @@
         <image name="Google_Icon" width="12" height="20"/>
         <image name="Mail_Icon" width="24" height="18"/>
         <image name="Password_Icon" width="17" height="22"/>
-        <image name="sacNewLogo" width="270" height="133"/>
     </resources>
 </document>
