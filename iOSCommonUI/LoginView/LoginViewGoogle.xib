@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -147,7 +146,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4LD-dB-Rec" userLabel="line">
-                            <rect key="frame" x="155" y="19" width="113" height="1"/>
+                            <rect key="frame" x="155" y="19" width="114" height="1"/>
                             <color key="backgroundColor" red="0.39533871409999999" green="0.39566129449999998" blue="0.39538863299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="1" id="udS-TZ-axo"/>
@@ -155,17 +154,16 @@
                         </view>
                     </subviews>
                     <constraints>
-                        <constraint firstAttribute="bottom" secondItem="4LD-dB-Rec" secondAttribute="bottom" constant="18.5" id="2NG-Gf-b07"/>
-                        <constraint firstItem="4LD-dB-Rec" firstAttribute="leading" secondItem="o2q-l6-Ffz" secondAttribute="trailing" constant="9" id="6cZ-iv-zeh"/>
-                        <constraint firstAttribute="trailing" secondItem="qNR-uS-qvW" secondAttribute="trailing" constant="154" id="BSS-1k-syG"/>
+                        <constraint firstItem="4LD-dB-Rec" firstAttribute="leading" secondItem="o2q-l6-Ffz" secondAttribute="trailing" constant="9" id="2Ff-VA-nXI"/>
+                        <constraint firstItem="qNR-uS-qvW" firstAttribute="width" secondItem="4LD-dB-Rec" secondAttribute="width" id="8tc-CZ-Usa"/>
                         <constraint firstAttribute="height" constant="38" id="CrH-oP-ykt"/>
-                        <constraint firstAttribute="trailing" secondItem="4LD-dB-Rec" secondAttribute="trailing" constant="8" id="OZb-rW-DvS"/>
-                        <constraint firstItem="qNR-uS-qvW" firstAttribute="top" secondItem="a69-NY-O7f" secondAttribute="top" constant="18.5" id="d5p-Um-VgO"/>
-                        <constraint firstItem="qNR-uS-qvW" firstAttribute="leading" secondItem="a69-NY-O7f" secondAttribute="leadingMargin" id="gQE-1O-Kvf"/>
+                        <constraint firstItem="o2q-l6-Ffz" firstAttribute="leading" secondItem="qNR-uS-qvW" secondAttribute="trailing" constant="9" id="F5b-AU-yZX"/>
+                        <constraint firstItem="qNR-uS-qvW" firstAttribute="centerY" secondItem="a69-NY-O7f" secondAttribute="centerY" id="KUf-po-0MW"/>
+                        <constraint firstItem="qNR-uS-qvW" firstAttribute="leading" secondItem="a69-NY-O7f" secondAttribute="leading" constant="8" id="XjX-tm-Rea"/>
+                        <constraint firstAttribute="trailing" secondItem="4LD-dB-Rec" secondAttribute="trailing" constant="7" id="boc-63-pqG"/>
                         <constraint firstAttribute="bottom" secondItem="o2q-l6-Ffz" secondAttribute="bottom" constant="10" id="gyc-cu-4VA"/>
                         <constraint firstItem="o2q-l6-Ffz" firstAttribute="top" secondItem="a69-NY-O7f" secondAttribute="top" constant="10" id="kig-Jd-jtC"/>
-                        <constraint firstItem="4LD-dB-Rec" firstAttribute="top" secondItem="a69-NY-O7f" secondAttribute="top" constant="18.5" id="lqh-7X-1mx"/>
-                        <constraint firstAttribute="bottom" secondItem="qNR-uS-qvW" secondAttribute="bottom" constant="18.5" id="o7V-U9-edd"/>
+                        <constraint firstItem="4LD-dB-Rec" firstAttribute="centerY" secondItem="a69-NY-O7f" secondAttribute="centerY" id="l1k-dy-4K8"/>
                         <constraint firstItem="o2q-l6-Ffz" firstAttribute="centerX" secondItem="a69-NY-O7f" secondAttribute="centerX" id="tum-NW-RbO"/>
                     </constraints>
                 </view>
