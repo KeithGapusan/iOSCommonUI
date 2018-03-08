@@ -29,7 +29,10 @@ public class LoginViewGoogle: UIView, UITextFieldDelegate {
             view.frame = self.bounds
         }
         
-        
+    @IBAction public func didPressedLoginBtn(_ sender: UIButton, forEvent event: UIEvent) {
+        print("loginPressed")
+    }
+    
         
 }
 
