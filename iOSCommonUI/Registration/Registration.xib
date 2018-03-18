@@ -249,7 +249,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="Qem-mQ-YcY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="33" id="1wn-t8-SvR"/>
-                <constraint firstItem="eJp-Md-2xv" firstAttribute="height" secondItem="uw2-uQ-pJs" secondAttribute="height" priority="1" id="6El-UB-Wpc"/>
+                <constraint firstItem="eJp-Md-2xv" firstAttribute="height" secondItem="uw2-uQ-pJs" secondAttribute="height" id="6El-UB-Wpc"/>
                 <constraint firstItem="wFU-YW-ltn" firstAttribute="top" secondItem="ZBu-Th-p2y" secondAttribute="bottom" constant="15" id="6xe-GA-oOF"/>
                 <constraint firstItem="RFq-RK-AHf" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="713-Wi-GfT"/>
                 <constraint firstItem="RFq-RK-AHf" firstAttribute="top" secondItem="Qem-mQ-YcY" secondAttribute="bottom" constant="30" id="7eb-XA-NVO"/>
