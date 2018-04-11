@@ -29,7 +29,18 @@ public class LoginView: UIView, UITextFieldDelegate {
         addSubview(view)
         view.frame = self.bounds
     }
-
+    public var loginHandler:((_ username: String, _ password: String) -> Void)?
     
-
+    @IBAction func login(sender: AnyObject) {
+        
+        if(loginHandler == nil) {
+            print("No loginHandler defined")
+            return
+        }
+        loginHandler!(tfUserName.text!, tfPassword.text!)
+        //        loginHandler!(
+        //            username: usernameTextfield.text!,
+        //            password: passwordTextfield.text!)
+        
+    }
 }
