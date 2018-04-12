@@ -19,9 +19,17 @@ class DesignableButton: UIButton {
 @IBDesignable
 class DesignableLabel: UILabel {
 }
+@IBDesignable
+class DesignableTextField: UITextField {
+}
+@IBDesignable
+class DesignableTextView: UITextView {
+}
+
 
 extension UIView {
-    
+
+
     @IBInspectable
     var cornerRadius: CGFloat {
         get {
