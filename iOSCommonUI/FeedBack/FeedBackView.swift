@@ -21,7 +21,7 @@ public class FeedBackView:UIView {
     @IBOutlet public weak var btnStar3: UIButton!
     @IBOutlet public weak var btnStar4: UIButton!
     @IBOutlet public weak var btnStar5: UIButton!
-    @IBOutlet var view: UIView!
+    var view: UIView!
     var stars = [UIButton]()
     
     var delegate : FeedbackDelegate?
@@ -51,6 +51,17 @@ public class FeedBackView:UIView {
             self.delegate?.didUserPressSubmit(sender: data)
         }
     }
+    
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        //        setUpView()
+        //        loadNib()
+        xibSetup()
+    }
+    
+
+    
+
     func starSelected(num : Int){
         var selected = num
         for config in stars{
@@ -65,13 +76,14 @@ public class FeedBackView:UIView {
     public required init?(coder aDecoder: NSCoder) {
         super .init(coder: aDecoder)
        
-        let bundleIdentifier = Bundle(for: FeedBackView.self)
-        UINib(nibName: "FeedBackView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
-        addSubview(self.view)
-        self.view.frame = self.bounds
-         stars = [btnStar1,btnStar2,btnStar3, btnStar4, btnStar5]
+//        let bundleIdentifier = Bundle(for: FeedBackView.self)
+//        UINib(nibName: "FeedBackView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
+//        addSubview(self.view)
+//        self.view.frame = self.bounds
+//        stars = [btnStar1,btnStar2,btnStar3, btnStar4, btnStar5]
+        xibSetup()
     }
-    public class func instanceFromNib() -> UIView {
+  func instanceFromNib() -> UIView {
         // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
           let bundleIdentifier = Bundle(for: FeedBackView.self)
         return UINib(nibName: xibName.feedback, bundle: bundleIdentifier).instantiate(withOwner: nil, options: nil)[0] as! UIView
@@ -79,5 +91,27 @@ public class FeedBackView:UIView {
     
     public class func fromNib<T: UIView>() -> T {
         return Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
+    }
+    func loadViewFromNib() -> UIView {
+        
+        let bundle = Bundle(for: type(of: self))
+        //  let nibName = type(of: self).description().components(separatedBy: ".").last!
+        let nib = UINib(nibName: "CustomView", bundle: bundle)
+        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
+        
+        return view
+    }
+    
+    
+    func xibSetup() {
+        view = self.instanceFromNib()
+        
+        // use bounds not frame or it'll be offset
+        view.frame = bounds
+        
+        // Make the view stretch with containing view
+        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        // Adding custom subview on top of our view (over any custom drawing > see note below)
+        addSubview(view)
     }
 }
