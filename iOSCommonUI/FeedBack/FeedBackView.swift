@@ -14,20 +14,23 @@ protocol FeedbackDelegate {
 
 public class FeedBackView:UIView {
 
-    @IBOutlet public weak var textField: UITextField!
-    @IBOutlet public weak var textView: UITextView!
-    @IBOutlet public weak var btnStar1: UIButton!
-    @IBOutlet public weak var btnStar2: UIButton!
-    @IBOutlet public weak var btnStar3: UIButton!
-    @IBOutlet public weak var btnStar4: UIButton!
-    @IBOutlet public weak var btnStar5: UIButton!
-    var view: UIView!
+    @IBOutlet var view: UIView!
+    @IBOutlet public weak var textField: UITextField?
+    
+    @IBOutlet public var textView: UITextView!
+    @IBOutlet public var btnStar1: UIButton!
+    @IBOutlet public var btnStar2: UIButton!
+    @IBOutlet public var btnStar3: UIButton!
+    @IBOutlet public var btnStar4: UIButton!
+    @IBOutlet public var btnStar5: UIButton!
+  
     var stars = [UIButton]()
     
     var delegate : FeedbackDelegate?
     @IBOutlet public weak var btnSubmit: UIButton!
     @IBAction func didPressedButton(_ sender: Any) {
         let btn = sender as! UIButton
+        stars = [btnStar1,btnStar2,btnStar3, btnStar4, btnStar5]
         switch btn {
         case btnStar1:
             
@@ -46,16 +49,15 @@ public class FeedBackView:UIView {
             print("star5")
              starSelected(num: 5)
         default:
-            print("Selected = ")
-            let data =  ["feedback": textView.text! , "email":textField.text!]
-            self.delegate?.didUserPressSubmit(sender: data)
+            print("Selected = \(starSelected)")
+            let data =  ["feedback": textView.text! , "email":textField?.text!]
+            self.delegate?.didUserPressSubmit(sender: data ?? ["feedback":"","email":"", "rating":starSelected] as [String:Any])
         }
     }
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
-        //        setUpView()
-        //        loadNib()
+        print("Setting up == FeedbackView")
         xibSetup()
     }
     
@@ -63,6 +65,7 @@ public class FeedBackView:UIView {
     
 
     func starSelected(num : Int){
+        self.stars = [btnStar1,btnStar2,btnStar3,btnStar4,btnStar5]
         var selected = num
         for config in stars{
             config.isSelected = false
@@ -73,35 +76,23 @@ public class FeedBackView:UIView {
             selected -= 1
         }
     }
+   
+   
+    
+
     public required init?(coder aDecoder: NSCoder) {
-        super .init(coder: aDecoder)
+        super.init(coder: aDecoder)
        
-//        let bundleIdentifier = Bundle(for: FeedBackView.self)
-//        UINib(nibName: "FeedBackView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
-//        addSubview(self.view)
-//        self.view.frame = self.bounds
-//        stars = [btnStar1,btnStar2,btnStar3, btnStar4, btnStar5]
-        xibSetup()
+        //  xibSetup()
     }
-  func instanceFromNib() -> UIView {
+    public func instanceFromNib() -> UIView {
         // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
-          let bundleIdentifier = Bundle(for: FeedBackView.self)
-        return UINib(nibName: xibName.feedback, bundle: bundleIdentifier).instantiate(withOwner: nil, options: nil)[0] as! UIView
-    }
-    
-    public class func fromNib<T: UIView>() -> T {
-        return Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil)![0] as! T
-    }
-    func loadViewFromNib() -> UIView {
+        let bundleIdentifier = Bundle(for: FeedBackView.self)
+        print("CustomView == FeedbackView")
+        print("bundle ID == \(bundleIdentifier)")
         
-        let bundle = Bundle(for: type(of: self))
-        //  let nibName = type(of: self).description().components(separatedBy: ".").last!
-        let nib = UINib(nibName: "CustomView", bundle: bundle)
-        let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
-        
-        return view
+        return UINib(nibName: xibName.feedback, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
-    
     
     func xibSetup() {
         view = self.instanceFromNib()
@@ -113,5 +104,41 @@ public class FeedBackView:UIView {
         view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
         // Adding custom subview on top of our view (over any custom drawing > see note below)
         addSubview(view)
+        
     }
+  ////
+    /*
+    public required init?(coder aDecoder: NSCoder) {
+        super .init(coder: aDecoder)
+    }
+    
+    @IBAction func didPressedButton(_ sender: Any) {
+        self.labelTriel.text = "text pressed"
+    }
+    public func instanceFromNib() -> UIView {
+        let bundleIdentifier = Bundle(for: TrialView.self)
+        print("CustomView instance  == TrialView")
+        print("bundle ID == \(bundleIdentifier)")
+        return UINib(nibName: "TrialView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
+    }
+    
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        print("Setting up == TrialView")
+        print(frame)
+        xibSetup()
+    }
+    func xibSetup() {
+        view = self.instanceFromNib()
+        
+        // use bounds not frame or it'll be offset
+        view.frame = bounds
+        
+        // Make the view stretch with containing view
+        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        // Adding custom subview on top of our view (over any custom drawing > see note below)
+        addSubview(view)
+    }
+    
+  */
 }
