@@ -8,56 +8,68 @@
 
 import UIKit
 
-protocol FeedbackDelegate {
+public protocol FeedbackDelegate {
     func didUserPressSubmit(sender : [String:Any])
 }
 
 public class FeedBackView:UIView {
 
-    @IBOutlet var view: UIView!
-    @IBOutlet public weak var textField: UITextField?
+    @IBOutlet var view: FeedBackView!
+    @IBOutlet weak var textField: UITextField?
     
-    @IBOutlet public var textView: UITextView!
-    @IBOutlet public var btnStar1: UIButton!
-    @IBOutlet public var btnStar2: UIButton!
-    @IBOutlet public var btnStar3: UIButton!
-    @IBOutlet public var btnStar4: UIButton!
-    @IBOutlet public var btnStar5: UIButton!
+    @IBOutlet  var textView: UITextView!
+    @IBOutlet  var btnStar1: UIButton!
+    @IBOutlet  var btnStar2: UIButton!
+    @IBOutlet  var btnStar3: UIButton!
+    @IBOutlet  var btnStar4: UIButton!
+    @IBOutlet  var btnStar5: UIButton!
   
     var stars = [UIButton]()
     
-    var delegate : FeedbackDelegate?
+    public var delegate : FeedbackDelegate!
     @IBOutlet public weak var btnSubmit: UIButton!
+    
+    
     @IBAction func didPressedButton(_ sender: Any) {
         let btn = sender as! UIButton
         stars = [btnStar1,btnStar2,btnStar3, btnStar4, btnStar5]
         switch btn {
         case btnStar1:
             
-            print("star1")
+         
             starSelected(num: 1)
         case btnStar2:
-            print("star2")
+        
              starSelected(num: 2)
         case btnStar3:
-            print("star3")
+     
              starSelected(num: 3)
         case btnStar4:
-            print("star4")
+     
              starSelected(num: 4)
         case btnStar5:
-            print("star5")
+       
              starSelected(num: 5)
         default:
-            print("Selected = \(starSelected)")
-            let data =  ["feedback": textView.text! , "email":textField?.text!]
-            self.delegate?.didUserPressSubmit(sender: data ?? ["feedback":"","email":"", "rating":starSelected] as [String:Any])
+        //    print("Selected = \(starSelected)")
+            
+            var rating = 0
+            for btn in stars{
+                if btn.isSelected {
+                    rating += 1
+                }else{
+                    
+                }
+            }
+            let data =  ["feedback": textView.text! , "email":textField!.text!, "rating":rating] as [String : Any]
+            delegate.didUserPressSubmit(sender: data)
+        
         }
     }
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
-        print("Setting up == FeedbackView")
+   
         xibSetup()
     }
     
@@ -71,7 +83,6 @@ public class FeedBackView:UIView {
             config.isSelected = false
         }
         while 0 < selected  {
-            print("stars selected == \(selected)")
             stars[selected - 1].isSelected = true
             selected -= 1
         }
@@ -95,7 +106,7 @@ public class FeedBackView:UIView {
     }
     
     func xibSetup() {
-        view = self.instanceFromNib()
+        view = self.instanceFromNib() as! FeedBackView
         
         // use bounds not frame or it'll be offset
         view.frame = bounds
