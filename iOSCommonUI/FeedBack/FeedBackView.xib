@@ -275,7 +275,7 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="0.66666666666666663" alpha="0.2716716609589041" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="0.24563891267123289" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="S8H-7Z-8ib" firstAttribute="centerY" secondItem="oo9-cw-nfB" secondAttribute="centerY" id="149-SC-ZHM"/>
                 <constraint firstItem="S8H-7Z-8ib" firstAttribute="centerX" secondItem="oo9-cw-nfB" secondAttribute="centerX" id="QYQ-jg-uVf"/>
