@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>iOSCommonUI 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>iOSCommonUI.xcscheme</key>
 		<dict>
 			<key>isShown</key>

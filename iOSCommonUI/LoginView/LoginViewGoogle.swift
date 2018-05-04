@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+public protocol LoginGoogleDelegate {
+    func btnClicked(sender:[String:Any])
+}
 public class LoginViewGoogle: UIView, UITextFieldDelegate {
     
     @IBOutlet public weak var btnGoogle: UIButton!
@@ -20,6 +22,7 @@ public class LoginViewGoogle: UIView, UITextFieldDelegate {
     @IBOutlet public weak var tfPassword: UITextField!
     @IBOutlet public var view: UIView!
     @IBOutlet public weak var lblVersion: UILabel!
+    public var delegate:LoginGoogleDelegate?
     
     public required init?(coder aDecoder: NSCoder) {
             super .init(coder: aDecoder)
@@ -31,6 +34,8 @@ public class LoginViewGoogle: UIView, UITextFieldDelegate {
         
     @IBAction public func didPressedLoginBtn(_ sender: UIButton, forEvent event: UIEvent) {
         print("loginPressed")
+        let dataGathered = ["email": tfUserName.text!, "pass":tfPassword.text!]
+        delegate?.btnClicked(sender: dataGathered)
     }
     
         
