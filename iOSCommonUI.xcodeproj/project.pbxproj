@@ -33,6 +33,8 @@
 		F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B2897C2047883E0059271D /* Storyboard.storyboard */; };
 		F7B2897F2047887D0059271D /* Splash1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B2897E2047887D0059271D /* Splash1.swift */; };
 		F7B28981204789130059271D /* Splash2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B28980204789120059271D /* Splash2.swift */; };
+		F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */; };
+		F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		F7B2897C2047883E0059271D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Splash/View/Storyboard.storyboard; sourceTree = "<group>"; };
 		F7B2897E2047887D0059271D /* Splash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash1.swift; path = Splash/ViewController/Splash1.swift; sourceTree = "<group>"; };
 		F7B28980204789120059271D /* Splash2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash2.swift; path = Splash/ViewController/Splash2.swift; sourceTree = "<group>"; };
+		F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogleV2.swift; sourceTree = "<group>"; };
+		F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogleV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,8 @@
 				5336A7901FCA61A900883093 /* LoginView.xib */,
 				F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */,
 				F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */,
+				F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */,
+				F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */,
 			);
 			path = LoginView;
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F724281F2085974900DC799C /* TrialView.xib in Resources */,
+				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +335,7 @@
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
 				5336DC6F1FCA98F5006C64E2 /* Validation.swift in Sources */,
 				F724281E2085974900DC799C /* TrialView.swift in Sources */,
+				F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */,
 				5336DC901FCAA008006C64E2 /* Registration.swift in Sources */,
 				F7B28981204789130059271D /* Splash2.swift in Sources */,
 				5336A7911FCA61A900883093 /* LoginView.swift in Sources */,
