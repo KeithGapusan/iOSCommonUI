@@ -24,11 +24,19 @@ public class FeedBackView:UIView {
     @IBOutlet  var btnStar4: UIButton!
     @IBOutlet  var btnStar5: UIButton!
   
+    @IBOutlet weak var lblFeedbackTitle: UILabel!
+    @IBOutlet public weak var imgViewFeedbackLogo: UIImageView!
     var stars = [UIButton]()
     
     public var delegate : FeedbackDelegate!
     @IBOutlet public weak var btnSubmit: UIButton!
     
+    public func setFeedbackTitle(title:String){
+        self.lblFeedbackTitle.text = title
+    }
+    public func setFeedbackLogo(image: UIImage){
+        self.imgViewFeedbackLogo.image = image
+    }
     
     @IBAction func didPressedButton(_ sender: Any) {
         let btn = sender as! UIButton
