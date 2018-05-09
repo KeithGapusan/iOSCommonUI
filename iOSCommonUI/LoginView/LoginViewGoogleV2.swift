@@ -33,19 +33,19 @@ public class LoginViewGoogleV2: UIView{
         let btnPressed = sender as! UIButton
         switch btnPressed {
         case btnLogin:
-            data = ["type": 1]
+            data["type"] = 1
             delegate.didUserPressedLoginBtn(sender: data)
             break
         case btnSignInGoogle:
-            data = ["type": 2]
+            data["type"] = 2
             delegate.didUserPressedLoginBtn(sender: data)
             break
         case btnForgotPass:
-            data = ["type": 3]
+            data["type"] = 3
             delegate.didUserPressedLoginBtn(sender: data)
             break
         case btnRegister:
-            data = ["type": 4]
+            data["type"] = 4
              delegate.didUserPressedLoginBtn(sender: data)
             break
         default:
@@ -61,6 +61,12 @@ public class LoginViewGoogleV2: UIView{
         super.init(coder: aDecoder)
         //  xibSetup()
 
+    }
+    public func getTfPassword()-> UITextField{
+        return self.tfPassword
+    }
+    public func getTfEmail() -> UITextField{
+        return self.tfEmailAddress
     }
     public func instanceFromNib() -> UIView {
         // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
