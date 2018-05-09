@@ -7,29 +7,80 @@
 //
 
 import UIKit
+public protocol LoginGoogleDelegateV2{
+    func didUserPressedLoginBtn(sender : [String:Any])
+    func didPressedBtn(sender:UIButton)
+}
 
-class LoginViewGoogleV2: UIView{
+public class LoginViewGoogleV2: UIView{
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet var view: LoginViewGoogleV2!
+    @IBOutlet weak var tfEmailAddress: UITextField!
+    @IBOutlet weak var tfPassword: UITextField!
+    @IBOutlet weak var btnLogin: UIButton!
+    @IBOutlet weak var btnSignInGoogle: UIButton!
+    @IBOutlet weak var btnForgotPass: UIButton!
+    @IBOutlet weak var btnRegister: UIButton!
+    
+    public var delegate: LoginGoogleDelegateV2!
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func didPressedSignInButton(_ sender: Any) {
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func didPressedBtn(_ sender: Any) {
+        var data =  ["password": tfPassword.text! , "email":tfEmailAddress.text!] as [String : Any]
+        let btnPressed = sender as! UIButton
+        switch btnPressed {
+        case btnLogin:
+            data = ["type": 1]
+            delegate.didUserPressedLoginBtn(sender: data)
+            break
+        case btnSignInGoogle:
+            data = ["type": 2]
+            delegate.didUserPressedLoginBtn(sender: data)
+            break
+        case btnForgotPass:
+            data = ["type": 3]
+            delegate.didUserPressedLoginBtn(sender: data)
+            break
+        case btnRegister:
+            data = ["type": 4]
+             delegate.didUserPressedLoginBtn(sender: data)
+            break
+        default:
+            print("unrecognized button")
+        }
+      
     }
-    */
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        xibSetup()
+    }
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        //  xibSetup()
+
+    }
+    public func instanceFromNib() -> UIView {
+        // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
+        let bundleIdentifier = Bundle(for: LoginViewGoogleV2.self)
+        print("CustomView == LoginView")
+        print("bundle ID == \(bundleIdentifier)")
+        
+        return UINib(nibName: xibName.loginWithGoogleV2, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
+    }
+    func xibSetup() {
+        view = self.instanceFromNib() as! LoginViewGoogleV2
+        
+        // use bounds not frame or it'll be offset
+        view.frame = bounds
+        
+        // Make the view stretch with containing view
+        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        // Adding custom subview on top of our view (over any custom drawing > see note below)
+        addSubview(view)
+        
+    }
 
 }

@@ -13,6 +13,7 @@ class Constant: NSObject {
 }
 struct xibName {
     static let feedback =  "FeedBackView"
+    static let loginWithGoogleV2 = "LoginViewGoogleV2"
     
 }
 
