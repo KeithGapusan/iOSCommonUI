@@ -35,6 +35,8 @@
 		F7B28981204789130059271D /* Splash2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B28980204789120059271D /* Splash2.swift */; };
 		F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */; };
 		F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */; };
+		F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */; };
+		F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		F7B28980204789120059271D /* Splash2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash2.swift; path = Splash/ViewController/Splash2.swift; sourceTree = "<group>"; };
 		F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogleV2.swift; sourceTree = "<group>"; };
 		F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogleV2.xib; sourceTree = "<group>"; };
+		F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationV2.swift; path = Registration/RegistrationV2.swift; sourceTree = "<group>"; };
+		F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationV2.xib; path = Registration/RegistrationV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,6 +169,8 @@
 			children = (
 				5336DC8E1FCAA008006C64E2 /* Registration.swift */,
 				5336DC8F1FCAA008006C64E2 /* Registration.xib */,
+				F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */,
+				F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */,
 			);
 			name = Registration;
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
+				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
@@ -331,6 +338,7 @@
 			files = (
 				5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */,
 				F7B2897F2047887D0059271D /* Splash1.swift in Sources */,
+				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
 				5336DC6F1FCA98F5006C64E2 /* Validation.swift in Sources */,
