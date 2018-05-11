@@ -17,11 +17,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationV2" customModule="iOSCommonUI" customModuleProvider="target">
             <connections>
-                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="klK-Oq-ag3"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="RegistrationV2" customModule="iOSCommonUI" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -76,8 +76,8 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aG1-3f-goj">
                             <rect key="frame" x="0.0" y="165" width="325" height="65"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL7-cB-NmZ">
-                                    <rect key="frame" x="8" y="8" width="99" height="16"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL7-cB-NmZ">
+                                    <rect key="frame" x="8" y="8" width="73.333333333333329" height="16"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
@@ -167,7 +167,7 @@
                                     </constraints>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="email"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98z-5G-5aP">
                                     <rect key="frame" x="8" y="56" width="309" height="1"/>
@@ -206,7 +206,7 @@
                                     </constraints>
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="email"/>
+                                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehM-RX-FAy">
                                     <rect key="frame" x="8" y="56" width="309" height="1"/>
@@ -264,6 +264,9 @@
                                             <real key="value" value="25"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="didPressedButton:" destination="-1" eventType="touchUpInside" id="h5l-9b-GVi"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -317,6 +320,15 @@
                 <constraint firstItem="rFF-Bj-B8J" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="yBw-n7-Kee"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outlet property="btnAlreadyMember" destination="uhE-VS-OKR" id="FI4-qj-CIr"/>
+                <outlet property="btnLogin" destination="9Ah-sz-lw0" id="EEI-HI-MVn"/>
+                <outlet property="tfConfirmPassword" destination="h8l-xC-fWu" id="G7b-Iz-kK3"/>
+                <outlet property="tfEmail" destination="cPm-Ai-fuU" id="Bbc-rX-CGx"/>
+                <outlet property="tfLastName" destination="um6-e6-KM4" id="VEq-Qr-s8a"/>
+                <outlet property="tfName" destination="eCC-ok-ifB" id="2nd-Sj-Zf8"/>
+                <outlet property="tfPassword" destination="cPm-Ai-fuU" id="Ovv-mo-RXF"/>
+            </connections>
         </view>
     </objects>
 </document>

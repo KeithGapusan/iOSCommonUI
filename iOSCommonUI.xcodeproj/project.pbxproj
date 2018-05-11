@@ -27,6 +27,8 @@
 		F724282120859D6600DC799C /* TrialView.xib in Headers */ = {isa = PBXBuildFile; fileRef = F724281D2085974900DC799C /* TrialView.xib */; settings = {ATTRIBUTES = (Public, ); }; };
 		F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */; };
 		F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */; };
+		F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */; };
+		F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */; };
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
 		F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A99F5F207DD4D40075391C /* FeedBackView.xib */; };
 		F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F62207DD89D0075391C /* DesignableView.swift */; };
@@ -67,6 +69,8 @@
 		F724281D2085974900DC799C /* TrialView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TrialView.xib; path = FeedBack/TrialView.xib; sourceTree = "<group>"; };
 		F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogle.swift; sourceTree = "<group>"; };
 		F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogle.xib; sourceTree = "<group>"; };
+		F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = ForgotPassword/ForgotPasswordView.swift; sourceTree = "<group>"; };
+		F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ForgotPasswordView.xib; path = ForgotPassword/ForgotPasswordView.xib; sourceTree = "<group>"; };
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
 		F7A99F5F207DD4D40075391C /* FeedBackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedBackView.xib; path = FeedBack/FeedBackView.xib; sourceTree = "<group>"; };
 		F7A99F62207DD89D0075391C /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
 				F7A99F62207DD89D0075391C /* DesignableView.swift */,
 				F7A99F5D207DBA030075391C /* AppFeedback */,
 				F7B28979204787E70059271D /* Splash */,
@@ -173,6 +178,15 @@
 				F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */,
 			);
 			name = Registration;
+			sourceTree = "<group>";
+		};
+		F79826AB20A4FEDB00AC12D8 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */,
+				F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */,
+			);
+			name = ForgotPassword;
 			sourceTree = "<group>";
 		};
 		F7A99F5D207DBA030075391C /* AppFeedback */ = {
@@ -312,6 +326,7 @@
 			files = (
 				5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
+				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
 				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
@@ -349,6 +364,7 @@
 				5336A7911FCA61A900883093 /* LoginView.swift in Sources */,
 				F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */,
 				F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */,
+				F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */,
 				F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
