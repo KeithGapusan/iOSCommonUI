@@ -31,7 +31,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8H-7Z-8ib">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8H-7Z-8ib" customClass="DesignableButton" customModule="iOSCommonUI" customModuleProvider="target">
                     <rect key="frame" x="42" y="128.33333333333337" width="330" height="500"/>
                     <subviews>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="us7-Up-Zed">
