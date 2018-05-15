@@ -29,7 +29,7 @@
                     <rect key="frame" x="25" y="124" width="325" height="624"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vey-Sb-GR0">
-                            <rect key="frame" x="8" y="8" width="114" height="47"/>
+                            <rect key="frame" x="8.0000000000000071" y="8" width="113.66666666666669" height="47"/>
                             <fontDescription key="fontDescription" name="Hermes-Thin" family="Hermes-Thin" pointSize="39"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
