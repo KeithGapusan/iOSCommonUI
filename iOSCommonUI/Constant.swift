@@ -15,6 +15,7 @@ struct xibName {
     static let feedback =  "FeedBackView"
     static let loginWithGoogleV2 = "LoginViewGoogleV2"
     static let registrationV2 = "RegistrationV2"
+    static let forgotPassword = "ForgotPasswordView"
     
 }
 
