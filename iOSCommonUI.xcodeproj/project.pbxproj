@@ -33,6 +33,7 @@
 		F7B28981204789130059271D /* Splash2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B28980204789120059271D /* Splash2.swift */; };
 		F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */; };
 		F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */; };
+		F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3F2D520AD060E00B51D42 /* Loader.swift */; };
 		F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */; };
 		F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
@@ -73,6 +74,7 @@
 		F7B28980204789120059271D /* Splash2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash2.swift; path = Splash/ViewController/Splash2.swift; sourceTree = "<group>"; };
 		F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogleV2.swift; sourceTree = "<group>"; };
 		F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogleV2.xib; sourceTree = "<group>"; };
+		F7D3F2D520AD060E00B51D42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationV2.swift; path = Registration/RegistrationV2.swift; sourceTree = "<group>"; };
 		F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationV2.xib; path = Registration/RegistrationV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
 				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
 				F7A99F62207DD89D0075391C /* DesignableView.swift */,
 				F7A99F5D207DBA030075391C /* AppFeedback */,
@@ -216,6 +219,14 @@
 				F7B2897C2047883E0059271D /* Storyboard.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		F7D3F2D420AD05FA00B51D42 /* ListLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F7D3F2D520AD060E00B51D42 /* Loader.swift */,
+			);
+			name = ListLoader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +365,7 @@
 				F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */,
 				F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */,
 				F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */,
+				F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
