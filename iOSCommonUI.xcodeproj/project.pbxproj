@@ -23,6 +23,8 @@
 		5336DC911FCAA008006C64E2 /* Registration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5336DC8F1FCAA008006C64E2 /* Registration.xib */; };
 		F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */; };
 		F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */; };
+		F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */; };
+		F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */; };
 		F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */; };
 		F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */; };
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
@@ -64,6 +66,8 @@
 		5336DC8F1FCAA008006C64E2 /* Registration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Registration.xib; path = Registration/Registration.xib; sourceTree = "<group>"; };
 		F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogle.swift; sourceTree = "<group>"; };
 		F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogle.xib; sourceTree = "<group>"; };
+		F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
 		F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = ForgotPassword/ForgotPasswordView.swift; sourceTree = "<group>"; };
 		F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ForgotPasswordView.xib; path = ForgotPassword/ForgotPasswordView.xib; sourceTree = "<group>"; };
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				F742640020AEB0B700D226E2 /* TableViewCell */,
 				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
 				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
 				F7A99F62207DD89D0075391C /* DesignableView.swift */,
@@ -175,6 +180,15 @@
 				F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */,
 			);
 			name = Registration;
+			sourceTree = "<group>";
+		};
+		F742640020AEB0B700D226E2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */,
+				F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 		F79826AB20A4FEDB00AC12D8 /* ForgotPassword */ = {
@@ -335,6 +349,7 @@
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
+				F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +382,7 @@
 				F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */,
 				F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */,
 				F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */,
+				F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
