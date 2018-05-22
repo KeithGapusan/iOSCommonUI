@@ -22,7 +22,7 @@ public class Validation: NSObject {
         var textValidation = [String]()
         var textTextFieldCode = [Int]()
         var errorList = [Int : String]()
-        if (tfEmail.text?.characters.count)! > 4 && (tfPass.text?.characters.count)! > 5{
+        if (tfEmail.text?.count)! > 4 && (tfPass.text?.count)! > 5{
             if isValidEmail(email:tfEmail.text!){
                 print("valid")
             }else{
@@ -31,23 +31,23 @@ public class Validation: NSObject {
                 errorList[0] = "Invalid email address."
             }
         }else{
-            if (tfEmail.text?.characters.count)! == 0{
+            if (tfEmail.text?.count)! == 0{
                 textValidation.append("Empty email address.")
                 textTextFieldCode.append(0)
                 errorList[0] = "Empty email address."
                 
-            }else if (tfPass.text?.characters.count)! == 0{
+            }else if (tfPass.text?.count)! == 0{
                 textValidation.append("Empty password.")
                 textTextFieldCode.append(1)
                 errorList[1] = "Empty password."
             }
 
-           else if (tfEmail.text?.characters.count)! < 4{
+           else if (tfEmail.text?.count)! < 4{
                 textValidation.append("Invalid email address.")
                 textTextFieldCode.append(0)
                 errorList[0] = "Invalid email address."
 
-            }else if (tfPass.text?.characters.count)! < 8 {
+            }else if (tfPass.text?.count)! < 8 {
                 textValidation.append("Invalid password.")
                 textTextFieldCode.append(1)
                 errorList[1] = "Invalid password."
