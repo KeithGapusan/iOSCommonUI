@@ -27,6 +27,13 @@
 		F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */; };
 		F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */; };
 		F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */; };
+		F798499B20B548F30098B4A4 /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499420B548F30098B4A4 /* ContentViewPage.swift */; };
+		F798499C20B548F30098B4A4 /* WalkThroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */; };
+		F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499620B548F30098B4A4 /* PageNewViewController.swift */; };
+		F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499720B548F30098B4A4 /* WalkThroughViewController.swift */; };
+		F798499F20B548F30098B4A4 /* WalkthroughHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */; };
+		F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798499920B548F30098B4A4 /* Walkthrough.storyboard */; };
+		F79849A120B548F30098B4A4 /* WalkthroughViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */; };
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
 		F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A99F5F207DD4D40075391C /* FeedBackView.xib */; };
 		F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F62207DD89D0075391C /* DesignableView.swift */; };
@@ -70,6 +77,13 @@
 		F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
 		F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = ForgotPassword/ForgotPasswordView.swift; sourceTree = "<group>"; };
 		F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ForgotPasswordView.xib; path = ForgotPassword/ForgotPasswordView.xib; sourceTree = "<group>"; };
+		F798499420B548F30098B4A4 /* ContentViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
+		F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughPageViewController.swift; sourceTree = "<group>"; };
+		F798499620B548F30098B4A4 /* PageNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNewViewController.swift; sourceTree = "<group>"; };
+		F798499720B548F30098B4A4 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughHolderViewController.swift; sourceTree = "<group>"; };
+		F798499920B548F30098B4A4 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+		F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController1.swift; sourceTree = "<group>"; };
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
 		F7A99F5F207DD4D40075391C /* FeedBackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedBackView.xib; path = FeedBack/FeedBackView.xib; sourceTree = "<group>"; };
 		F7A99F62207DD89D0075391C /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
@@ -124,6 +138,7 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				F798499320B548F30098B4A4 /* Walkthrough */,
 				F742640020AEB0B700D226E2 /* TableViewCell */,
 				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
 				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
@@ -198,6 +213,20 @@
 				F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */,
 			);
 			name = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		F798499320B548F30098B4A4 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				F798499420B548F30098B4A4 /* ContentViewPage.swift */,
+				F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */,
+				F798499620B548F30098B4A4 /* PageNewViewController.swift */,
+				F798499720B548F30098B4A4 /* WalkThroughViewController.swift */,
+				F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */,
+				F798499920B548F30098B4A4 /* Walkthrough.storyboard */,
+				F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */,
+			);
+			path = Walkthrough;
 			sourceTree = "<group>";
 		};
 		F7A99F5D207DBA030075391C /* AppFeedback */ = {
@@ -348,6 +377,7 @@
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
+				F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */,
 				F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,12 +400,18 @@
 				F7B2897F2047887D0059271D /* Splash1.swift in Sources */,
 				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
+				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController.swift in Sources */,
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
+				F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */,
 				5336DC6F1FCA98F5006C64E2 /* Validation.swift in Sources */,
+				F79849A120B548F30098B4A4 /* WalkthroughViewController1.swift in Sources */,
 				F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */,
 				5336DC901FCAA008006C64E2 /* Registration.swift in Sources */,
+				F798499C20B548F30098B4A4 /* WalkThroughPageViewController.swift in Sources */,
+				F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */,
 				F7B28981204789130059271D /* Splash2.swift in Sources */,
 				5336A7911FCA61A900883093 /* LoginView.swift in Sources */,
+				F798499B20B548F30098B4A4 /* ContentViewPage.swift in Sources */,
 				F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */,
 				F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */,
 				F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */,
