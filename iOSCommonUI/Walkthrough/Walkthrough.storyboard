@@ -14,7 +14,7 @@
         <!--Walkthrough Holder View Controller-->
         <scene sceneID="dyU-Ff-s0C">
             <objects>
-                <viewController id="fKk-0d-Loc" customClass="WalkthroughHolderViewController" customModule="StraightArrow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fKk-0d-Loc" customClass="WalkthroughHolderViewController" customModule="iOSCommonUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xIa-0L-ues">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--Walk Through View Controller-->
         <scene sceneID="S8d-Md-vQo">
             <objects>
-                <viewController storyboardIdentifier="wtVC" id="qxa-Bl-LU6" customClass="WalkThroughViewController" customModule="StraightArrow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wtVC" id="qxa-Bl-LU6" customClass="WalkThroughViewController" customModule="iOSCommonUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="wtVC" id="q6n-1J-xKd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,7 +117,7 @@
                                             <constraint firstAttribute="width" constant="120" id="qnC-e8-bWn"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SA App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FvG-wf-OKU">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to StraightArrow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="16" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FvG-wf-OKU">
                                         <rect key="frame" x="20" y="188" width="270" height="38.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38.5" id="6Ik-49-SdS"/>
@@ -133,11 +133,11 @@
                                             <constraint firstAttribute="width" constant="270" id="3cn-4Q-qCa"/>
                                         </constraints>
                                         <string key="text">StraightArrow is the Philippines’ pioneer creative process outsourcing company, supporting digital agencies and creative teams around the world.</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozk-xr-1Sd" customClass="DesignableButton" customModule="StraightArrow" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozk-xr-1Sd" customClass="DesignableButton" customModule="iOSCommonUI" customModuleProvider="target">
                                         <rect key="frame" x="65" y="425" width="180" height="55"/>
                                         <color key="backgroundColor" red="0.97105413675308228" green="0.65183615684509277" blue="0.12102828174829483" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -193,7 +193,7 @@
         <!--Walk Through View Controller-->
         <scene sceneID="eYE-Lg-HEI">
             <objects>
-                <viewController storyboardIdentifier="wtVC1" id="p57-R1-QeX" customClass="WalkThroughViewController" customModule="StraightArrow" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wtVC1" id="p57-R1-QeX" customClass="WalkThroughViewController" customModule="iOSCommonUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="wtVC" id="i9X-GT-D1b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,7 +257,7 @@
         <!--Walk Through Page View Controller-->
         <scene sceneID="DPz-3i-zDc">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="6" navigationOrientation="horizontal" spineLocation="min" id="pfA-3w-sU9" customClass="WalkThroughPageViewController" customModule="StraightArrow" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="6" navigationOrientation="horizontal" spineLocation="min" id="pfA-3w-sU9" customClass="WalkThroughPageViewController" customModule="iOSCommonUI" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="p57-R1-QeX" kind="show" id="0MD-7b-a8D"/>
                     </connections>

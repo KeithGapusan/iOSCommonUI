@@ -9,11 +9,16 @@
 import UIKit
 
 
-class WalkthroughHolderViewController: UIViewController , WalkThroughPageViewControllerDelegate {
+class WalkthroughHolderViewController1: UIViewController , WalkThroughPageViewControllerDelegate {
     func didUpdatePageView(sender: Int) {
         print("current page \(sender)")
         self.pageControl.currentPage = sender
-        self.lblTitle.text = titles[sender]
+      //  self.lblTitle.text = titles[sender]
+        if sender == 4 {
+            self.btnNext.setTitle("Done", for: .normal)
+        }else{
+            self.btnNext.setTitle("Next", for: .normal)
+        }
     }
     
     func getNumberOfViews(sender: Int) {
@@ -24,6 +29,8 @@ class WalkthroughHolderViewController: UIViewController , WalkThroughPageViewCon
     @IBOutlet weak var walkThroughCarousel: UIView!
     @IBOutlet weak var walk: UIView!
     @IBOutlet weak var lblTitle: UILabel!
+    
+    @IBOutlet weak var btnNext: UIButton!
     
     var w : WalkThroughPageViewController!
     
@@ -48,7 +55,7 @@ class WalkthroughHolderViewController: UIViewController , WalkThroughPageViewCon
     lazy var titles : [String] = {
         return ["News and blogs","Portfolio","Contact Us","Events","Profile"]
     }()
-    @IBOutlet weak var btnNext: UIButton!
+    
  
     @IBAction func didPressedNextButton(_ sender: UIButton) {
     //     w = self.childViewControllers[0] as!  WalkThroughPageViewController
@@ -56,18 +63,13 @@ class WalkthroughHolderViewController: UIViewController , WalkThroughPageViewCon
         let numOfItems = orderedViewControllers.count - 1
         if currPage < numOfItems
         {
-             w.setCurrentView(index:currPage + 1)
+            w.setCurrentView(index:currPage + 1)
         }else{
-            w.setCurrentView(index: 0)
+            //w.setCurrentView(index: 0)
+            
         }
        
-//        w.pageDelegate = self
-//        w.setCurrentIndex(index: 2)
-//        w.setViewController(views: orderedViewControllers)
-        
-        
-        
-        
+
     }
     
     
