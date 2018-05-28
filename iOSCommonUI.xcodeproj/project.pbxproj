@@ -31,7 +31,7 @@
 		F798499C20B548F30098B4A4 /* WalkThroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */; };
 		F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499620B548F30098B4A4 /* PageNewViewController.swift */; };
 		F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499720B548F30098B4A4 /* WalkThroughViewController.swift */; };
-		F798499F20B548F30098B4A4 /* WalkthroughHolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */; };
+		F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */; };
 		F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798499920B548F30098B4A4 /* Walkthrough.storyboard */; };
 		F79849A120B548F30098B4A4 /* WalkthroughViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */; };
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
@@ -81,7 +81,7 @@
 		F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughPageViewController.swift; sourceTree = "<group>"; };
 		F798499620B548F30098B4A4 /* PageNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNewViewController.swift; sourceTree = "<group>"; };
 		F798499720B548F30098B4A4 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
-		F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughHolderViewController.swift; sourceTree = "<group>"; };
+		F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughHolderViewController1.swift; sourceTree = "<group>"; };
 		F798499920B548F30098B4A4 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController1.swift; sourceTree = "<group>"; };
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 				F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */,
 				F798499620B548F30098B4A4 /* PageNewViewController.swift */,
 				F798499720B548F30098B4A4 /* WalkThroughViewController.swift */,
-				F798499820B548F30098B4A4 /* WalkthroughHolderViewController.swift */,
+				F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */,
 				F798499920B548F30098B4A4 /* Walkthrough.storyboard */,
 				F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */,
 			);
@@ -400,7 +400,7 @@
 				F7B2897F2047887D0059271D /* Splash1.swift in Sources */,
 				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
-				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController.swift in Sources */,
+				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */,
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
 				F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */,
 				5336DC6F1FCA98F5006C64E2 /* Validation.swift in Sources */,
