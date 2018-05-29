@@ -337,6 +337,7 @@
 				TargetAttributes = {
 					5336A7731FCA5EAF00883093 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5M8AYP3HD3;
 						ProvisioningStyle = Automatic;
 					};
 					5336A77C1FCA5EAF00883093 = {
@@ -545,7 +546,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -564,6 +567,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 5M8AYP3HD3;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
