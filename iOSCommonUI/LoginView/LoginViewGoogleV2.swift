@@ -68,6 +68,13 @@ public class LoginViewGoogleV2: UIView{
     public func getTfEmail() -> UITextField{
         return self.tfEmailAddress
     }
+    
+    public func setTfPassword(password : String){
+        self.tfPassword.text =  password
+    }
+    public func setTfemail(email: String){
+        self.tfEmailAddress.text = email
+    }
     public func instanceFromNib() -> UIView {
         // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
         let bundleIdentifier = Bundle(for: LoginViewGoogleV2.self)

@@ -17,6 +17,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationV2" customModule="iOSCommonUI" customModuleProvider="target">
             <connections>
+                <outlet property="btnAlreadyMember" destination="uhE-VS-OKR" id="SZG-pl-kha"/>
+                <outlet property="btnLogin" destination="9Ah-sz-lw0" id="W2U-WU-x1w"/>
+                <outlet property="btnPrivacyPolicy" destination="8ZL-cM-95k" id="W04-zk-kRX"/>
+                <outlet property="tfConfirmPassword" destination="h8l-xC-fWu" id="Svc-Zu-ySp"/>
+                <outlet property="tfEmail" destination="RtN-TF-0cQ" id="cFT-yH-YKK"/>
+                <outlet property="tfLastName" destination="um6-e6-KM4" id="4Vu-4l-dKF"/>
+                <outlet property="tfName" destination="eCC-ok-ifB" id="ejg-FR-9YH"/>
+                <outlet property="tfPassword" destination="cPm-Ai-fuU" id="Pby-qp-zvJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="klK-Oq-ag3"/>
             </connections>
         </placeholder>
@@ -273,6 +281,9 @@
                                 </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZL-cM-95k">
                                     <rect key="frame" x="10" y="0.0" width="305" height="60"/>
+                                    <connections>
+                                        <action selector="didPressedButton:" destination="-1" eventType="touchUpInside" id="bGA-lV-yVB"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -291,14 +302,20 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g2B-v9-CeJ">
                             <rect key="frame" x="0.0" y="504" width="325" height="55"/>
                             <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already a member?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxv-Dt-Yrg">
+                                    <rect key="frame" x="174" y="0.0" width="144" height="55"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhE-VS-OKR" customClass="DesignableButton" customModule="iOSCommonUI" customModuleProvider="target">
-                                    <rect key="frame" x="183" y="0.0" width="135" height="55"/>
+                                    <rect key="frame" x="174" y="0.0" width="144" height="55"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstAttribute="width" priority="250" constant="150" id="Uua-O1-Fg2"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                    <state key="normal" title="Already a member?">
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                                    <state key="normal">
                                         <color key="titleColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
@@ -306,9 +323,12 @@
                                             <real key="value" value="25"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="didPressedButton:" destination="-1" eventType="touchUpInside" id="Ln1-Fv-UAP"/>
+                                    </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ah-sz-lw0" customClass="DesignableButton" customModule="iOSCommonUI" customModuleProvider="target">
-                                    <rect key="frame" x="8" y="0.0" width="135" height="55"/>
+                                    <rect key="frame" x="8" y="0.0" width="144" height="55"/>
                                     <color key="backgroundColor" red="0.97174853090000002" green="0.65032738450000005" blue="0.12223779410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" priority="250" constant="150" id="6gQ-MD-Hvf"/>
@@ -334,8 +354,12 @@
                                 <constraint firstItem="uhE-VS-OKR" firstAttribute="top" secondItem="g2B-v9-CeJ" secondAttribute="top" id="3vz-57-4pv"/>
                                 <constraint firstItem="9Ah-sz-lw0" firstAttribute="width" secondItem="uhE-VS-OKR" secondAttribute="width" id="4XP-vf-ZiB"/>
                                 <constraint firstItem="uhE-VS-OKR" firstAttribute="leading" secondItem="9Ah-sz-lw0" secondAttribute="trailing" priority="750" constant="40" id="4t1-V9-h3W"/>
+                                <constraint firstItem="Nxv-Dt-Yrg" firstAttribute="centerY" secondItem="uhE-VS-OKR" secondAttribute="centerY" id="B60-8Q-20p"/>
+                                <constraint firstItem="Nxv-Dt-Yrg" firstAttribute="height" secondItem="uhE-VS-OKR" secondAttribute="height" id="Qyv-nk-Nq7"/>
                                 <constraint firstAttribute="height" constant="55" id="bff-xi-FRh"/>
+                                <constraint firstItem="Nxv-Dt-Yrg" firstAttribute="centerX" secondItem="uhE-VS-OKR" secondAttribute="centerX" id="isB-Mv-1ak"/>
                                 <constraint firstItem="9Ah-sz-lw0" firstAttribute="leading" secondItem="g2B-v9-CeJ" secondAttribute="leading" constant="8" id="jGt-Cg-pw7"/>
+                                <constraint firstItem="Nxv-Dt-Yrg" firstAttribute="width" secondItem="uhE-VS-OKR" secondAttribute="width" id="jkD-p2-ydz"/>
                                 <constraint firstAttribute="bottom" secondItem="9Ah-sz-lw0" secondAttribute="bottom" id="oJh-E2-oVK"/>
                                 <constraint firstAttribute="trailing" secondItem="uhE-VS-OKR" secondAttribute="trailing" constant="7" id="qi8-IM-Mb3"/>
                                 <constraint firstAttribute="bottom" secondItem="uhE-VS-OKR" secondAttribute="bottom" id="s60-bc-kzw"/>
@@ -385,18 +409,14 @@
             <connections>
                 <outlet property="btnAlreadyMember" destination="uhE-VS-OKR" id="FI4-qj-CIr"/>
                 <outlet property="btnLogin" destination="9Ah-sz-lw0" id="EEI-HI-MVn"/>
+                <outlet property="btnPrivacyPolicy" destination="8ZL-cM-95k" id="LMa-LI-OyK"/>
                 <outlet property="tfConfirmPassword" destination="h8l-xC-fWu" id="G7b-Iz-kK3"/>
-                <outlet property="tfEmail" destination="cPm-Ai-fuU" id="Bbc-rX-CGx"/>
+                <outlet property="tfEmail" destination="RtN-TF-0cQ" id="BVu-ee-iYX"/>
                 <outlet property="tfLastName" destination="um6-e6-KM4" id="VEq-Qr-s8a"/>
                 <outlet property="tfName" destination="eCC-ok-ifB" id="2nd-Sj-Zf8"/>
-                <outlet property="tfPassword" destination="cPm-Ai-fuU" id="Ovv-mo-RXF"/>
+                <outlet property="tfPassword" destination="cPm-Ai-fuU" id="fgK-eR-yb0"/>
             </connections>
             <point key="canvasLocation" x="77.5" y="54"/>
         </view>
-        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qsV-0E-EnT">
-            <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <state key="normal" title="Button"/>
-        </button>
     </objects>
 </document>

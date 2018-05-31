@@ -13,6 +13,7 @@ public protocol RegistrationV2Delegate{
 
 public class RegistrationV2: UIView{
 
+    @IBOutlet weak var btnPrivacyPolicy: UIButton!
     @IBOutlet weak var tfName: UITextField!
     @IBOutlet weak var tfLastName: UITextField!
     @IBOutlet weak var tfEmail: UITextField!
@@ -25,11 +26,16 @@ public class RegistrationV2: UIView{
     @IBAction func didPressedButton(_ sender: Any) {
         let btn = sender as! UIButton
         if btn == btnLogin{
-            let data = ["first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!]
+            let data = ["type":0,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
             delegate.didPressedButton(sender: data)
         }else if btn == btnAlreadyMember{
-            
-        }else{
+            let data = ["type":1,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
+            delegate.didPressedButton(sender: data)
+        }else if btn ==  btnPrivacyPolicy{
+            let data = ["type":2,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
+            delegate.didPressedButton(sender: data)
+        }
+        else{
             print("not applicable")
         }
     }
