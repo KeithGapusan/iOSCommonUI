@@ -26,20 +26,54 @@ public class RegistrationV2: UIView{
     @IBAction func didPressedButton(_ sender: Any) {
         let btn = sender as! UIButton
         if btn == btnLogin{
-            let data = ["type":0,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
+  
+            let textFields = ["First name":tfName , "Last name":tfLastName, "Email":tfEmail, "Password": tfPassword, "Confirm password": tfConfirmPassword]
+            let listOfEmptyTextFields = self.listOfEmptyTextField(textFields: textFields as! [String : UITextField])
+            
+            let data = ["type":0,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!, "confirm_password": tfConfirmPassword.text!,  "empty_textfields": listOfEmptyTextFields] as [String : Any]
+            
+            
+            
             delegate.didPressedButton(sender: data)
         }else if btn == btnAlreadyMember{
             let data = ["type":1,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
             delegate.didPressedButton(sender: data)
         }else if btn ==  btnPrivacyPolicy{
-            let data = ["type":2,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!] as [String : Any]
+            let data = ["type":2,"first_name":tfName.text! , "last_name":tfLastName.text!, "email":tfEmail.text!, "password": tfPassword.text!, "confirm_password": tfConfirmPassword.text!] as [String : Any]
             delegate.didPressedButton(sender: data)
         }
         else{
             print("not applicable")
         }
     }
-    
+    public func isTextFieldEmpty(textField: UITextField) -> Bool{
+        guard (textField.text?.count)! < 1  else {
+            return false
+        }
+        return true
+    }
+    public func listOfEmptyTextField(textFields : [String:UITextField]) ->  [String:Any]{
+        var result = [String:Any]()
+        for textField in textFields{
+            let isTextFieldEmpty = self.isTextFieldEmpty(textField: textField.value)
+            
+            if isTextFieldEmpty{
+                result[textField.key] =  isTextFieldEmpty
+            }
+//            guard isTextFieldEmpty == false else {
+//                return  result[textField.key] =  isTextFieldEmpty
+//            }
+          
+         //   result.index(forKey: <#T##String#>)
+        }
+        return result
+    }
+    public func getBtnAlreadyMember() -> UIButton{
+        return self.btnAlreadyMember
+    }
+    public func setBtnAlreadyMemberHidden(isHidden: Bool){
+        self.btnAlreadyMember.isHidden = isHidden
+    }
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
