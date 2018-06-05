@@ -335,7 +335,7 @@
                                         <constraint firstAttribute="height" constant="55" id="f8x-lv-jKe"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
-                                    <state key="normal" title="LOGIN">
+                                    <state key="normal" title="SIGN UP">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <userDefinedRuntimeAttributes>
