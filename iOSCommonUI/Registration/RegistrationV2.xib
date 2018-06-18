@@ -37,7 +37,7 @@
                     <rect key="frame" x="25" y="70" width="325" height="567"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vey-Sb-GR0">
-                            <rect key="frame" x="8" y="8" width="113.5" height="47"/>
+                            <rect key="frame" x="8" y="8" width="123" height="47"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="47" id="id3-G0-LTl"/>
                             </constraints>

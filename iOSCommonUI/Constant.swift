@@ -16,6 +16,12 @@ struct xibName {
     static let loginWithGoogleV2 = "LoginViewGoogleV2"
     static let registrationV2 = "RegistrationV2"
     static let forgotPassword = "ForgotPasswordView"
-    
+
+    /* custom cell */
+    static let headerCell = "HeaderTableViewCell"
+}
+
+struct cellIdentifier {
+    static let headerCell = "header_label"
 }
 
