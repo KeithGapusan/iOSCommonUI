@@ -46,6 +46,8 @@
 		F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */; };
 		F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
+		F7FC557B20D0BE6000547100 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC557920D0BE5F00547100 /* HeaderTableViewCell.swift */; };
+		F7FC557C20D0BE6000547100 /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7FC557A20D0BE6000547100 /* HeaderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +98,8 @@
 		F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationV2.swift; path = Registration/RegistrationV2.swift; sourceTree = "<group>"; };
 		F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationV2.xib; path = Registration/RegistrationV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F7FC557920D0BE5F00547100 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		F7FC557A20D0BE6000547100 /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				F7FC557D20D0BE9200547100 /* CustomTableViewCell */,
+				F7FC557720D0BBFE00547100 /* DynamicForm */,
 				F798499320B548F30098B4A4 /* Walkthrough */,
 				F742640020AEB0B700D226E2 /* TableViewCell */,
 				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
@@ -272,6 +278,22 @@
 			name = ListLoader;
 			sourceTree = "<group>";
 		};
+		F7FC557720D0BBFE00547100 /* DynamicForm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DynamicForm;
+			sourceTree = "<group>";
+		};
+		F7FC557D20D0BE9200547100 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC557920D0BE5F00547100 /* HeaderTableViewCell.swift */,
+				F7FC557A20D0BE6000547100 /* HeaderTableViewCell.xib */,
+			);
+			path = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -373,6 +395,7 @@
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
 				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
+				F7FC557C20D0BE6000547100 /* HeaderTableViewCell.xib in Resources */,
 				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
@@ -418,6 +441,7 @@
 				F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */,
 				F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */,
 				F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */,
+				F7FC557B20D0BE6000547100 /* HeaderTableViewCell.swift in Sources */,
 				F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
