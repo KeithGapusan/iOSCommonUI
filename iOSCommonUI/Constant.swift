@@ -19,9 +19,11 @@ struct xibName {
 
     /* custom cell */
     static let headerCell = "HeaderTableViewCell"
+    static let loaderCell = "LoaderCustomTableViewCell"
 }
 
 struct cellIdentifier {
     static let headerCell = "header_label"
+    static let loaderCell = "cell_loader"
 }
 

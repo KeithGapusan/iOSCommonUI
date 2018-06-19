@@ -27,5 +27,8 @@ public class HeaderTableViewCell: UITableViewCell {
    public func getCellId() -> String{
         return cellIdentifier.headerCell
     }
+    public func registerNib(tableView:UITableView){
+       tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
     
 }
