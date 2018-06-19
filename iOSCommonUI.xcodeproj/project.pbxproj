@@ -43,6 +43,8 @@
 		F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */; };
 		F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */; };
 		F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3F2D520AD060E00B51D42 /* Loader.swift */; };
+		F7DA254D20D8D433006B555B /* LoaderCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA254B20D8D433006B555B /* LoaderCustomTableViewCell.swift */; };
+		F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA254C20D8D433006B555B /* LoaderCustomTableViewCell.xib */; };
 		F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */; };
 		F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
@@ -95,6 +97,8 @@
 		F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogleV2.swift; sourceTree = "<group>"; };
 		F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogleV2.xib; sourceTree = "<group>"; };
 		F7D3F2D520AD060E00B51D42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		F7DA254B20D8D433006B555B /* LoaderCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderCustomTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA254C20D8D433006B555B /* LoaderCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderCustomTableViewCell.xib; sourceTree = "<group>"; };
 		F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationV2.swift; path = Registration/RegistrationV2.swift; sourceTree = "<group>"; };
 		F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationV2.xib; path = Registration/RegistrationV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -278,6 +282,24 @@
 			name = ListLoader;
 			sourceTree = "<group>";
 		};
+		F7DA254920D8B195006B555B /* HeaderLabelCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC557920D0BE5F00547100 /* HeaderTableViewCell.swift */,
+				F7FC557A20D0BE6000547100 /* HeaderTableViewCell.xib */,
+			);
+			path = HeaderLabelCell;
+			sourceTree = "<group>";
+		};
+		F7DA254A20D8B1F8006B555B /* LoaderSpinnerCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA254C20D8D433006B555B /* LoaderCustomTableViewCell.xib */,
+				F7DA254B20D8D433006B555B /* LoaderCustomTableViewCell.swift */,
+			);
+			path = LoaderSpinnerCell;
+			sourceTree = "<group>";
+		};
 		F7FC557720D0BBFE00547100 /* DynamicForm */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,8 +310,8 @@
 		F7FC557D20D0BE9200547100 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				F7FC557920D0BE5F00547100 /* HeaderTableViewCell.swift */,
-				F7FC557A20D0BE6000547100 /* HeaderTableViewCell.xib */,
+				F7DA254A20D8B1F8006B555B /* LoaderSpinnerCell */,
+				F7DA254920D8B195006B555B /* HeaderLabelCell */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";
@@ -392,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */,
+				F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
 				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
@@ -443,6 +466,7 @@
 				F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */,
 				F7FC557B20D0BE6000547100 /* HeaderTableViewCell.swift in Sources */,
 				F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */,
+				F7DA254D20D8D433006B555B /* LoaderCustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
