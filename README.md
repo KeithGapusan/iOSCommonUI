@@ -5,7 +5,7 @@
 
 A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders. 
 
-# FeadbackView 
+### FeadbackView 
 A custom view for internal app rating.
 
 Example:
@@ -19,6 +19,7 @@ var feedbackDelegate : FeedbackDelegate!
 
 //feedback implements protocol
 func didUserPressSubmit(sender: [String : Any]) {
+        /**sender will return the Dictionary of textfields and ratings**/ 
         self.showFeedback(show: false)
  }
 
@@ -36,7 +37,7 @@ fileprivate func showFeedback(show: Bool) {
     }
 }
 ```
-# Custom TableView Cell
+### Custom TableView Cell
 ```swift
 import iOSCommonUI
 
@@ -48,15 +49,14 @@ var headerCell : HeaderTableViewCell!
            //register the nibfile of cell in tableview
            headerCell.registerNib(tableView: self.tableView)
         }
-
-
 }
 // Dequeing cell 
  self.tableView.dequeueReusableCell(withIdentifier:headerCell.getCellId()) as? HeaderTableViewCell {
- //insert your customization here
+        //insert your customization here
  }
 
 
 ```
+### Shimery Loader 
 
 
