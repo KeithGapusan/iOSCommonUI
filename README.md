@@ -1,11 +1,19 @@
-# iOSCommonUI
+# iOSCommonUI 
+![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
+![Swift 4.0.x](https://img.shields.io/badge/Swift-4.0.x-orange.svg) 
+![Version](https://img.shields.io/badge/Version-1.0-green.svg)
+
 A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders. 
 
 # FeadbackView 
-A custom view that the user can use it for internal app rating
+A custom view for internal app rating.
+
+Example:
 ```swift
 import iOSCommonUI
+
 class YourViewController: UIViewController, FeedbackDelegate {
+
 var feecbackView : FeedBackView!
 var feedbackDelegate : FeedbackDelegate!
 
@@ -28,4 +36,27 @@ fileprivate func showFeedback(show: Bool) {
     }
 }
 ```
+# Custom TableView Cell
+```swift
+import iOSCommonUI
+
+class YourViewController: UIViewController{
+var headerCell : HeaderTableViewCell!
+
+        override func viewDidLoad() {
+           headerCell = HeaderTableViewCell()
+           //register the nibfile of cell in tableview
+           headerCell.registerNib(tableView: self.tableView)
+        }
+
+
+}
+// Dequeing cell 
+ self.tableView.dequeueReusableCell(withIdentifier:headerCell.getCellId()) as? HeaderTableViewCell {
+ //insert your customization here
+ }
+
+
+```
+
 
