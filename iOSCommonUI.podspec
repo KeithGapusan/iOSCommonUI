@@ -13,6 +13,7 @@ s.version      = "1.0.2"
 s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.2"
 s.summary      = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
 
+
 s.description  = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
 
 s.homepage     = "https://github.com/KeithGapusan/iOSCommonUI"
@@ -23,8 +24,10 @@ s.author             = { "Keith Randell Gapusan" => "krsgapusan@gmail.com" }
 s.social_media_url   = "https://www.facebook.com/keithrednash"
 s.social_media_url   = "https://www.instagram.com/keithgapusan/"
 
+
 s.platform     = :ios, "11.0"
 #s.source       = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v1.0.2" }
 s.source_files  = "iOSCommonUI/**/*"
+
 
 end
