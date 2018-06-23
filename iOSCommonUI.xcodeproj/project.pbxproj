@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */; };
 		5336A77E1FCA5EAF00883093 /* iOSCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */; };
 		5336A7831FCA5EAF00883093 /* iOSCommonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A7821FCA5EAF00883093 /* iOSCommonUITests.swift */; };
 		5336A7851FCA5EAF00883093 /* iOSCommonUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5336A7771FCA5EAF00883093 /* iOSCommonUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; };
 		5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336A7771FCA5EAF00883093 /* iOSCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonUI.h; sourceTree = "<group>"; };
 		5336A7781FCA5EAF00883093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				5336A7771FCA5EAF00883093 /* iOSCommonUI.h */,
 				5336A7781FCA5EAF00883093 /* Info.plist */,
 				5336DC361FCA697B006C64E2 /* Media.xcassets */,
+				531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */,
 			);
 			path = iOSCommonUI;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
 				F7FC557C20D0BE6000547100 /* HeaderTableViewCell.xib in Resources */,
 				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
+				531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
