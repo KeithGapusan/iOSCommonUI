@@ -7,11 +7,12 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "keyboard-left-arrow-button-1.png",
+      "filename" : "keyboard-left-arrow-button-2.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "keyboard-left-arrow-button-1.png",
       "scale" : "3x"
     }
   ],
