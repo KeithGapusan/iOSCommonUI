@@ -22,6 +22,14 @@
 		5336DC701FCA998D006C64E2 /* Validation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 5336DC6E1FCA98F5006C64E2 /* Validation.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		5336DC901FCAA008006C64E2 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336DC8E1FCAA008006C64E2 /* Registration.swift */; };
 		5336DC911FCAA008006C64E2 /* Registration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5336DC8F1FCAA008006C64E2 /* Registration.xib */; };
+		53E0759320DE7A3E00549DE2 /* ContentViewPage.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499420B548F30098B4A4 /* ContentViewPage.swift */; };
+		53E0759420DE7A3E00549DE2 /* WalkThroughPageViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499520B548F30098B4A4 /* WalkThroughPageViewController.swift */; };
+		53E0759520DE7A3E00549DE2 /* PageNewViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499620B548F30098B4A4 /* PageNewViewController.swift */; };
+		53E0759620DE7A3E00549DE2 /* WalkThroughViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499720B548F30098B4A4 /* WalkThroughViewController.swift */; };
+		53E0759720DE7A3E00549DE2 /* WalkthroughHolderViewController1.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */; };
+		53E0759820DE7A3E00549DE2 /* Walkthrough.storyboard in Headers */ = {isa = PBXBuildFile; fileRef = F798499920B548F30098B4A4 /* Walkthrough.storyboard */; };
+		53E0759920DE7A3E00549DE2 /* WalkthroughViewController1.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */; };
+		53E075C120DF657500549DE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 53E075C020DF657500549DE2 /* README.md */; };
 		F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */; };
 		F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */; };
 		F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */; };
@@ -77,6 +85,7 @@
 		5336DC6E1FCA98F5006C64E2 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		5336DC8E1FCAA008006C64E2 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Registration.swift; path = Registration/Registration.swift; sourceTree = "<group>"; };
 		5336DC8F1FCAA008006C64E2 /* Registration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Registration.xib; path = Registration/Registration.xib; sourceTree = "<group>"; };
+		53E075C020DF657500549DE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogle.swift; sourceTree = "<group>"; };
 		F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogle.xib; sourceTree = "<group>"; };
 		F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -148,22 +157,12 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
-				F7FC557D20D0BE9200547100 /* CustomTableViewCell */,
-				F7FC557720D0BBFE00547100 /* DynamicForm */,
-				F798499320B548F30098B4A4 /* Walkthrough */,
-				F742640020AEB0B700D226E2 /* TableViewCell */,
-				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
-				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
-				F7A99F62207DD89D0075391C /* DesignableView.swift */,
-				F7A99F5D207DBA030075391C /* AppFeedback */,
-				F7B28979204787E70059271D /* Splash */,
-				5336DC6D1FCA98CE006C64E2 /* Utility */,
-				5336DC8D1FCA9F98006C64E2 /* Registration */,
-				5336A78E1FCA61A900883093 /* LoginView */,
+				53E0759220DE784B00549DE2 /* Pods */,
 				5336A7771FCA5EAF00883093 /* iOSCommonUI.h */,
 				5336A7781FCA5EAF00883093 /* Info.plist */,
 				5336DC361FCA697B006C64E2 /* Media.xcassets */,
 				531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */,
+				53E075C020DF657500549DE2 /* README.md */,
 			);
 			path = iOSCommonUI;
 			sourceTree = "<group>";
@@ -180,6 +179,7 @@
 		5336A78E1FCA61A900883093 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
+				53E0759120DE783900549DE2 /* New Group */,
 				5336A78F1FCA61A900883093 /* LoginView.swift */,
 				5336A7901FCA61A900883093 /* LoginView.xib */,
 				F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */,
@@ -208,6 +208,39 @@
 				F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */,
 			);
 			name = Registration;
+			sourceTree = "<group>";
+		};
+		53E0759020DE782400549DE2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		53E0759120DE783900549DE2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		53E0759220DE784B00549DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7FC557D20D0BE9200547100 /* CustomTableViewCell */,
+				F7FC557720D0BBFE00547100 /* DynamicForm */,
+				F798499320B548F30098B4A4 /* Walkthrough */,
+				F742640020AEB0B700D226E2 /* TableViewCell */,
+				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
+				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
+				F7A99F62207DD89D0075391C /* DesignableView.swift */,
+				F7A99F5D207DBA030075391C /* AppFeedback */,
+				F7B28979204787E70059271D /* Splash */,
+				5336DC6D1FCA98CE006C64E2 /* Utility */,
+				5336DC8D1FCA9F98006C64E2 /* Registration */,
+				5336A78E1FCA61A900883093 /* LoginView */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F742640020AEB0B700D226E2 /* TableViewCell */ = {
@@ -313,6 +346,7 @@
 		F7FC557D20D0BE9200547100 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				53E0759020DE782400549DE2 /* New Group */,
 				F7DA254A20D8B1F8006B555B /* LoaderSpinnerCell */,
 				F7DA254920D8B195006B555B /* HeaderLabelCell */,
 			);
@@ -330,6 +364,13 @@
 				5336A7931FCA61C900883093 /* LoginView.swift in Headers */,
 				5336A7941FCA61C900883093 /* LoginView.xib in Headers */,
 				5336DC701FCA998D006C64E2 /* Validation.swift in Headers */,
+				53E0759320DE7A3E00549DE2 /* ContentViewPage.swift in Headers */,
+				53E0759420DE7A3E00549DE2 /* WalkThroughPageViewController.swift in Headers */,
+				53E0759520DE7A3E00549DE2 /* PageNewViewController.swift in Headers */,
+				53E0759620DE7A3E00549DE2 /* WalkThroughViewController.swift in Headers */,
+				53E0759720DE7A3E00549DE2 /* WalkthroughHolderViewController1.swift in Headers */,
+				53E0759820DE7A3E00549DE2 /* Walkthrough.storyboard in Headers */,
+				53E0759920DE7A3E00549DE2 /* WalkthroughViewController1.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +469,7 @@
 				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
+				53E075C120DF657500549DE2 /* README.md in Resources */,
 				F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */,
 				F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */,
 			);

@@ -14,7 +14,7 @@ import iOSCommonUI
 
 class YourViewController: UIViewController, FeedbackDelegate {
 
-var feecbackView : FeedBackView!
+var feedbackView : FeedBackView!
 var feedbackDelegate : FeedbackDelegate!
 
 //feedback implements protocol
@@ -57,6 +57,9 @@ var headerCell : HeaderTableViewCell!
 
 
 ```
-### Shimery Loader 
+### Shimmery Loader
 
+```swift
+  Loader.addLoaderTo(self.tableView)
+```
 

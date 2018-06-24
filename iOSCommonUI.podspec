@@ -9,15 +9,15 @@
 Pod::Spec.new do |s|
 
 s.name         = "iOSCommonUI"
-s.version      = "1.0.2"
-s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.2"
+s.version      = "1.0.3"
+s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.3"
 s.summary      = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
 
 
 s.description  = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
 
 s.homepage     = "https://github.com/KeithGapusan/iOSCommonUI"
-s.license      = "MIT"
+s.license      = {:type => "MIT", :file => "https://github.com/KeithGapusan/iOSCommonUI/blob/master/LICENSE"}
 # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 s.author             = { "Keith Randell Gapusan" => "krsgapusan@gmail.com" }
@@ -26,8 +26,7 @@ s.social_media_url   = "https://www.instagram.com/keithgapusan/"
 
 
 s.platform     = :ios, "11.0"
-#s.source       = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v1.0.2" }
-s.source_files  = "iOSCommonUI/**/*"
-
+#s.source       = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v1.0.3" }
+s.source_files  = "iOSCommonUI/**/*.{h,m,swift,storyboard,xib}"
 
 end
