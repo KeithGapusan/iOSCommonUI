@@ -5,7 +5,7 @@
 
 A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders. 
 
-### FeadbackView 
+### FeedbackView
 A custom view for internal app rating.
 
 Example:
