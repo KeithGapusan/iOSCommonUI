@@ -85,11 +85,8 @@ public class RegistrationV2: UIView{
         //uncomment this if you want to implement this view directly in your Interface Builder View
     }
     public func instanceFromNib() -> UIView {
-        // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
-        let bundleIdentifier = Bundle(for: RegistrationV2.self)
-        print("bundle ID == \(bundleIdentifier)")
-        
-        return UINib(nibName: xibName.registrationV2, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
+        let podBundle = Bundle(path: Bundle(for: RegistrationV2.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
+        return UINib(nibName: xibName.registrationV2, bundle: podBundle).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
     func xibSetup() {
         view = self.instanceFromNib() as! RegistrationV2

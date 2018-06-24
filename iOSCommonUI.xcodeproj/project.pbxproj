@@ -27,7 +27,6 @@
 		53E0759520DE7A3E00549DE2 /* PageNewViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499620B548F30098B4A4 /* PageNewViewController.swift */; };
 		53E0759620DE7A3E00549DE2 /* WalkThroughViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499720B548F30098B4A4 /* WalkThroughViewController.swift */; };
 		53E0759720DE7A3E00549DE2 /* WalkthroughHolderViewController1.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */; };
-		53E0759820DE7A3E00549DE2 /* Walkthrough.storyboard in Headers */ = {isa = PBXBuildFile; fileRef = F798499920B548F30098B4A4 /* Walkthrough.storyboard */; };
 		53E0759920DE7A3E00549DE2 /* WalkthroughViewController1.swift in Headers */ = {isa = PBXBuildFile; fileRef = F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */; };
 		53E075C120DF657500549DE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 53E075C020DF657500549DE2 /* README.md */; };
 		F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */; };
@@ -41,7 +40,6 @@
 		F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499620B548F30098B4A4 /* PageNewViewController.swift */; };
 		F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499720B548F30098B4A4 /* WalkThroughViewController.swift */; };
 		F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */; };
-		F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798499920B548F30098B4A4 /* Walkthrough.storyboard */; };
 		F79849A120B548F30098B4A4 /* WalkthroughViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */; };
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
 		F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A99F5F207DD4D40075391C /* FeedBackView.xib */; };
@@ -94,7 +92,6 @@
 		F798499620B548F30098B4A4 /* PageNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNewViewController.swift; sourceTree = "<group>"; };
 		F798499720B548F30098B4A4 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
 		F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughHolderViewController1.swift; sourceTree = "<group>"; };
-		F798499920B548F30098B4A4 /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
 		F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController1.swift; sourceTree = "<group>"; };
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
 		F7A99F5F207DD4D40075391C /* FeedBackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedBackView.xib; path = FeedBack/FeedBackView.xib; sourceTree = "<group>"; };
@@ -247,7 +244,6 @@
 				F798499620B548F30098B4A4 /* PageNewViewController.swift */,
 				F798499720B548F30098B4A4 /* WalkThroughViewController.swift */,
 				F798499820B548F30098B4A4 /* WalkthroughHolderViewController1.swift */,
-				F798499920B548F30098B4A4 /* Walkthrough.storyboard */,
 				F798499A20B548F30098B4A4 /* WalkthroughViewController1.swift */,
 			);
 			path = Walkthrough;
@@ -320,7 +316,6 @@
 				53E0759520DE7A3E00549DE2 /* PageNewViewController.swift in Headers */,
 				53E0759620DE7A3E00549DE2 /* WalkThroughViewController.swift in Headers */,
 				53E0759720DE7A3E00549DE2 /* WalkthroughHolderViewController1.swift in Headers */,
-				53E0759820DE7A3E00549DE2 /* Walkthrough.storyboard in Headers */,
 				53E0759920DE7A3E00549DE2 /* WalkthroughViewController1.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,7 +415,6 @@
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
 				53E075C120DF657500549DE2 /* README.md in Resources */,
-				F79849A020B548F30098B4A4 /* Walkthrough.storyboard in Resources */,
 				F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,7 +592,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSCommonUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ph.com.idahkeith.iOSCommonUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -618,7 +612,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = iOSCommonUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ph.com.idahkeith.iOSCommonUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

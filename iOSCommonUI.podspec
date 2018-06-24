@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "iOSCommonUI"
-s.version      = "1.0.6"
+s.version      = "1.0.9"
 s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.3"
 s.summary      = "A boiler plate of iOS common custom view."
 
@@ -28,5 +28,8 @@ s.social_media_url   = "https://www.instagram.com/keithgapusan/"
 s.platform     = :ios, "10.3"
 #s.source       = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v1.0.3" }
 s.source_files  = "iOSCommonUI/**/*.{h,m,swift,storyboard,xib.json}"
+s.resource_bundles = {
+    'iOSCommonUI' => ['iOSCommonUI/**/*.{storyboard,xib,xcassets,json,imageset,png}']
+}
 
 end

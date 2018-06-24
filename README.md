@@ -18,23 +18,24 @@ var feedbackView : FeedBackView!
 var feedbackDelegate : FeedbackDelegate!
 
 //feedback implements protocol
-func didUserPressSubmit(sender: [String : Any]) {
+    func didUserPressSubmit(sender: [String : Any]) {
         /**sender will return the Dictionary of textfields and ratings**/ 
         self.showFeedback(show: false)
- }
-
-
-fileprivate func showFeedback(show: Bool) {
+    }
+ 
+    fileprivate func showFeedback(show: Bool) {
         if show {
-            feecbackView = FeedBackView(frame: self.tableView.frame)
-            feecbackView.setFeedbackTitle(title: "show title")
-            feecbackView.setFeedbackLogo(image:#imageLiteral(resourceName: "sac_logo"))        
-            self.view.addSubview(feecbackView)
-            feecbackView.delegate = self
+            feedbackView = FeedBackView(frame:  CGRect.init(x: 0, y: 0, width: self.view.frame.width, height: 560))
+            feedbackView.setFeedbackTitle(title: "show title")
+ 
+            self.view.addSubview(feedbackView)
+            feedbackView.delegate = self
         }else{
-            self.feecbackView.removeFromSuperview()
+            self.feedbackView.removeFromSuperview()
+            self.feedbackView = nil
         }
     }
+
 }
 ```
 ### Custom TableView Cell

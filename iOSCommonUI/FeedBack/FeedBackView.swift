@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol FeedbackDelegate {
+public protocol FeedbackDelegate :class {
     func didUserPressSubmit(sender : [String:Any])
 }
 
@@ -28,7 +28,7 @@ public class FeedBackView:UIView {
     @IBOutlet public weak var imgViewFeedbackLogo: UIImageView!
     var stars = [UIButton]()
     
-    public var delegate : FeedbackDelegate!
+    public weak var delegate : FeedbackDelegate!
     @IBOutlet public weak var btnSubmit: UIButton!
     
     public func setFeedbackTitle(title:String){
@@ -105,12 +105,11 @@ public class FeedBackView:UIView {
         //  xibSetup()
     }
     public func instanceFromNib() -> UIView {
-        // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)
-        let bundleIdentifier = Bundle(for: FeedBackView.self)
-        print("CustomView == FeedbackView")
-        print("bundle ID == \(bundleIdentifier)")
-        
-        return UINib(nibName: xibName.feedback, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
+
+//        let bundleIdentifier = Bundle(for: FeedBackView.self)
+//        let bundle = Bundle(for: FeedBackView.classForCoder())
+        let podBundle = Bundle(path: Bundle(for: FeedBackView.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
+        return UINib(nibName: xibName.feedback, bundle: podBundle).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
     
     func xibSetup() {
@@ -161,3 +160,5 @@ public class FeedBackView:UIView {
     
   */
 }
+
+
