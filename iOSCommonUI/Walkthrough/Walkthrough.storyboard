@@ -109,7 +109,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="COv-HI-odG">
                                 <rect key="frame" x="5" y="44" width="310" height="500"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="250" image="sac_logo_big" translatesAutoresizingMaskIntoConstraints="NO" id="JMs-Oo-tTc">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="JMs-Oo-tTc">
                                         <rect key="frame" x="95" y="40" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="height" priority="750" constant="120" id="ASo-am-RzA"/>
@@ -201,7 +201,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iP8-rP-Vfy">
                                 <rect key="frame" x="10" y="30" width="300" height="350"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="250" image="nocontent" translatesAutoresizingMaskIntoConstraints="NO" id="bwK-7k-HqF">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="bwK-7k-HqF">
                                         <rect key="frame" x="90" y="60" width="120" height="120"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bwK-7k-HqF" secondAttribute="height" multiplier="1:1" id="24V-vQ-YiW"/>
@@ -267,8 +267,4 @@
             <point key="canvasLocation" x="-193" y="464"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="nocontent" width="76" height="65"/>
-        <image name="sac_logo_big" width="200" height="195"/>
-    </resources>
 </document>

@@ -317,7 +317,7 @@
     </objects>
     <resources>
         <image name="First_Name_Icon" width="23" height="23"/>
-        <image name="star_grey" width="32" height="32"/>
-        <image name="star_yellow" width="32" height="32"/>
+        <image name="star_grey" width="10" height="10"/>
+        <image name="star_yellow" width="10" height="10"/>
     </resources>
 </document>

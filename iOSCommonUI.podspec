@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 s.name         = "iOSCommonUI"
 s.version      = "1.0.3"
 s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.3"
-s.summary      = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
+s.summary      = "A boiler plate of iOS common custom view."
 
 
 s.description  = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
@@ -27,6 +27,6 @@ s.social_media_url   = "https://www.instagram.com/keithgapusan/"
 
 s.platform     = :ios, "11.0"
 #s.source       = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v1.0.3" }
-s.source_files  = "iOSCommonUI/**/*.{h,m,swift,storyboard,xib}"
+s.source_files  = "iOSCommonUI/**/*.{h,m,swift,storyboard,xib.json}"
 
 end

@@ -243,7 +243,6 @@
                         <constraint firstAttribute="width" constant="25" id="8Gb-Qf-GUA"/>
                         <constraint firstAttribute="height" constant="25" id="ps0-Kz-ehc"/>
                     </constraints>
-                    <state key="normal" image="back"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -293,6 +292,5 @@
         <image name="Mail_Icon" width="24" height="18"/>
         <image name="Password_Icon" width="17" height="22"/>
         <image name="Yumi" width="47" height="52"/>
-        <image name="back" width="32" height="32"/>
     </resources>
 </document>

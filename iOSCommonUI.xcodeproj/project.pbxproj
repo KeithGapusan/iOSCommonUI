@@ -46,9 +46,6 @@
 		F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F5E207DD4D40075391C /* FeedBackView.swift */; };
 		F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A99F5F207DD4D40075391C /* FeedBackView.xib */; };
 		F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A99F62207DD89D0075391C /* DesignableView.swift */; };
-		F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B2897C2047883E0059271D /* Storyboard.storyboard */; };
-		F7B2897F2047887D0059271D /* Splash1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B2897E2047887D0059271D /* Splash1.swift */; };
-		F7B28981204789130059271D /* Splash2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B28980204789120059271D /* Splash2.swift */; };
 		F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */; };
 		F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */; };
 		F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3F2D520AD060E00B51D42 /* Loader.swift */; };
@@ -102,9 +99,6 @@
 		F7A99F5E207DD4D40075391C /* FeedBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBackView.swift; path = FeedBack/FeedBackView.swift; sourceTree = "<group>"; };
 		F7A99F5F207DD4D40075391C /* FeedBackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedBackView.xib; path = FeedBack/FeedBackView.xib; sourceTree = "<group>"; };
 		F7A99F62207DD89D0075391C /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		F7B2897C2047883E0059271D /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = Splash/View/Storyboard.storyboard; sourceTree = "<group>"; };
-		F7B2897E2047887D0059271D /* Splash1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash1.swift; path = Splash/ViewController/Splash1.swift; sourceTree = "<group>"; };
-		F7B28980204789120059271D /* Splash2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Splash2.swift; path = Splash/ViewController/Splash2.swift; sourceTree = "<group>"; };
 		F7BDF6C420A16DF600D0BCC7 /* LoginViewGoogleV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogleV2.swift; sourceTree = "<group>"; };
 		F7BDF6C520A16DF600D0BCC7 /* LoginViewGoogleV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogleV2.xib; sourceTree = "<group>"; };
 		F7D3F2D520AD060E00B51D42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
@@ -179,7 +173,6 @@
 		5336A78E1FCA61A900883093 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
-				53E0759120DE783900549DE2 /* New Group */,
 				5336A78F1FCA61A900883093 /* LoginView.swift */,
 				5336A7901FCA61A900883093 /* LoginView.xib */,
 				F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */,
@@ -210,20 +203,6 @@
 			name = Registration;
 			sourceTree = "<group>";
 		};
-		53E0759020DE782400549DE2 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		53E0759120DE783900549DE2 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		53E0759220DE784B00549DE2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,7 +214,6 @@
 				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
 				F7A99F62207DD89D0075391C /* DesignableView.swift */,
 				F7A99F5D207DBA030075391C /* AppFeedback */,
-				F7B28979204787E70059271D /* Splash */,
 				5336DC6D1FCA98CE006C64E2 /* Utility */,
 				5336DC8D1FCA9F98006C64E2 /* Registration */,
 				5336A78E1FCA61A900883093 /* LoginView */,
@@ -284,32 +262,6 @@
 			name = AppFeedback;
 			sourceTree = "<group>";
 		};
-		F7B28979204787E70059271D /* Splash */ = {
-			isa = PBXGroup;
-			children = (
-				F7B2897B2047881D0059271D /* View */,
-				F7B2897A204788020059271D /* ViewController */,
-			);
-			name = Splash;
-			sourceTree = "<group>";
-		};
-		F7B2897A204788020059271D /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F7B2897E2047887D0059271D /* Splash1.swift */,
-				F7B28980204789120059271D /* Splash2.swift */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		F7B2897B2047881D0059271D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				F7B2897C2047883E0059271D /* Storyboard.storyboard */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		F7D3F2D420AD05FA00B51D42 /* ListLoader */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,7 +298,6 @@
 		F7FC557D20D0BE9200547100 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				53E0759020DE782400549DE2 /* New Group */,
 				F7DA254A20D8B1F8006B555B /* LoaderSpinnerCell */,
 				F7DA254920D8B195006B555B /* HeaderLabelCell */,
 			);
@@ -466,7 +417,6 @@
 				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
 				531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
-				F7B2897D2047883E0059271D /* Storyboard.storyboard in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
 				53E075C120DF657500549DE2 /* README.md in Resources */,
@@ -490,7 +440,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */,
-				F7B2897F2047887D0059271D /* Splash1.swift in Sources */,
 				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
 				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */,
@@ -502,7 +451,6 @@
 				5336DC901FCAA008006C64E2 /* Registration.swift in Sources */,
 				F798499C20B548F30098B4A4 /* WalkThroughPageViewController.swift in Sources */,
 				F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */,
-				F7B28981204789130059271D /* Splash2.swift in Sources */,
 				5336A7911FCA61A900883093 /* LoginView.swift in Sources */,
 				F798499B20B548F30098B4A4 /* ContentViewPage.swift in Sources */,
 				F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */,
@@ -583,6 +531,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -629,6 +578,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
