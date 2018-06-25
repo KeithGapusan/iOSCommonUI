@@ -37,7 +37,7 @@
                     <rect key="frame" x="25" y="70" width="325" height="567"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vey-Sb-GR0">
-                            <rect key="frame" x="8" y="8" width="123" height="47"/>
+                            <rect key="frame" x="8" y="8" width="113.5" height="47"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="47" id="id3-G0-LTl"/>
                             </constraints>
@@ -54,7 +54,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ex. Juan" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eCC-ok-ifB" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="John" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eCC-ok-ifB" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
                                     <rect key="frame" x="8" y="27" width="309" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="2Yk-nx-nNI"/>
@@ -99,7 +99,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ex. Dela Cruz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="um6-e6-KM4" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Doe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="um6-e6-KM4" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
                                     <rect key="frame" x="8" y="27" width="309" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="sy2-Xv-L28"/>
@@ -144,7 +144,7 @@
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="straigharrow@email.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RtN-TF-0cQ" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="straightarrow@email.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RtN-TF-0cQ" customClass="DesignableTextField" customModule="iOSCommonUI" customModuleProvider="target">
                                     <rect key="frame" x="8" y="27" width="309" height="30"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="30" id="uFj-aY-7My"/>

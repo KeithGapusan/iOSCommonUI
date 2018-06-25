@@ -82,9 +82,17 @@ public class LoginViewGoogleV2: UIView{
 //        print("bundle ID == \(bundleIdentifier)")
 //
 //        return UINib(nibName: xibName.loginWithGoogleV2, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
-        let podBundle = Bundle(path: Bundle(for: LoginViewGoogleV2.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
-        return UINib(nibName: xibName.loginWithGoogleV2, bundle: podBundle).instantiate(withOwner: self, options: nil)[0] as! UIView
+//        let podBundle = Bundle(path: Bundle(for: LoginViewGoogleV2.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
+   
+        return UINib(nibName: xibName.loginWithGoogleV2, bundle: Bundle().getBundle(swiftClass: LoginViewGoogleV2.self)).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
+    
+//    func getBundle() -> Bundle{
+//        guard let podBundle = Bundle(for: LoginViewGoogleV2.self).path(forResource: "iOSCommonUI", ofType: "bundle") else {
+//            return Bundle(for: LoginViewGoogleV2.self)
+//        }
+//        return Bundle(path: podBundle)!
+//    }
     func xibSetup() {
         view = self.instanceFromNib() as! LoginViewGoogleV2
         

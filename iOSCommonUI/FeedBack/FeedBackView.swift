@@ -108,8 +108,8 @@ public class FeedBackView:UIView {
 
 //        let bundleIdentifier = Bundle(for: FeedBackView.self)
 //        let bundle = Bundle(for: FeedBackView.classForCoder())
-        let podBundle = Bundle(path: Bundle(for: FeedBackView.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
-        return UINib(nibName: xibName.feedback, bundle: podBundle).instantiate(withOwner: self, options: nil)[0] as! UIView
+//        let podBundle = Bundle(path: Bundle(for: FeedBackView.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
+        return UINib(nibName: xibName.feedback, bundle: Bundle().getBundle(swiftClass: FeedBackView.self)).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
     
     func xibSetup() {

@@ -40,7 +40,7 @@ public class ForgotPasswordView: UIView {
         let bundleIdentifier = Bundle(for: ForgotPasswordView.self)
         print("bundle ID == \(bundleIdentifier)")
         
-        return UINib(nibName: xibName.forgotPassword, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
+        return UINib(nibName: xibName.forgotPassword, bundle: Bundle().getBundle(swiftClass: ForgotPasswordView.self)).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
     func xibSetup() {
         view = self.instanceFromNib() as! ForgotPasswordView
