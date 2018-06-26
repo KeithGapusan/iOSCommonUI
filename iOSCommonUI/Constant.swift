@@ -20,6 +20,13 @@ struct xibName {
     /* custom cell */
     static let headerCell = "HeaderTableViewCell"
     static let loaderCell = "LoaderCustomTableViewCell"
+    
+    static let imageViewTableViewCell = "ImageViewTableViewCell"
+    static let ImageViewTitleTableViewCell = "ImageViewTitleTableViewCell"
+    static let LabelCollectionViewCell  = "LabelCollectionViewCell"
+    static let TwoColumnContactTableViewCell = "TwoColumnContactTableViewCell"
+    
+    
 }
 
 struct cellIdentifier {

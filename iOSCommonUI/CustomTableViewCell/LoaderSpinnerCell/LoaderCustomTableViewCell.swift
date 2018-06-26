@@ -21,7 +21,7 @@ public class LoaderCustomTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     public func getNib() -> UINib{
-        return UINib(nibName:xibName.loaderCell, bundle: Bundle(for: HeaderTableViewCell.self))
+        return UINib(nibName:xibName.loaderCell, bundle: Bundle().getBundle(swiftClass: LoaderCustomTableViewCell.self))
     }
     public func getCellId() -> String{
         return cellIdentifier.loaderCell

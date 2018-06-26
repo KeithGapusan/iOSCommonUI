@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageViewTableViewCell" rowHeight="139" id="KGk-i7-Jjw" customClass="ImageViewTableViewCell" customModule="StraightArrow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="138.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nocontent" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xmu-wc-fze">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="xmu-wc-fze" secondAttribute="height" multiplier="160:69" id="CEI-Ne-k0B"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6uB-mN-6WW" customClass="GradientView" customModule="StraightArrow" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="138.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PR-5d-xcy">
+                                <rect key="frame" x="15" y="10" width="290" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPM-Na-Qne">
+                                <rect key="frame" x="15" y="31" width="290" height="14.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kh-eM-S2u">
+                                <rect key="frame" x="15" y="45.5" width="290" height="14.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0kh-eM-S2u" firstAttribute="leading" secondItem="6uB-mN-6WW" secondAttribute="leading" constant="15" id="3jK-2h-aJh"/>
+                            <constraint firstItem="0kh-eM-S2u" firstAttribute="top" secondItem="oPM-Na-Qne" secondAttribute="bottom" id="DBm-ge-fNu"/>
+                            <constraint firstAttribute="trailing" secondItem="4PR-5d-xcy" secondAttribute="trailing" constant="15" id="DhF-0u-HFn"/>
+                            <constraint firstItem="oPM-Na-Qne" firstAttribute="leading" secondItem="6uB-mN-6WW" secondAttribute="leading" constant="15" id="Odb-gO-8S3"/>
+                            <constraint firstAttribute="trailing" secondItem="oPM-Na-Qne" secondAttribute="trailing" constant="15" id="dyr-Jb-t79"/>
+                            <constraint firstItem="4PR-5d-xcy" firstAttribute="leading" secondItem="6uB-mN-6WW" secondAttribute="leading" constant="15" id="fMz-Ep-SWG"/>
+                            <constraint firstAttribute="trailing" secondItem="0kh-eM-S2u" secondAttribute="trailing" constant="15" id="hlH-uP-fsr"/>
+                            <constraint firstItem="oPM-Na-Qne" firstAttribute="top" secondItem="4PR-5d-xcy" secondAttribute="bottom" id="tWA-7r-Z2K"/>
+                            <constraint firstItem="4PR-5d-xcy" firstAttribute="top" secondItem="6uB-mN-6WW" secondAttribute="top" constant="10" id="xgD-RX-3Qk"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="endLocation">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
+                                <real key="value" value="-8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.43932306770000001" green="0.15688806769999999" blue="0.43224394319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6uB-mN-6WW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1lK-le-dxL"/>
+                    <constraint firstAttribute="bottom" secondItem="xmu-wc-fze" secondAttribute="bottom" id="53b-JJ-f9c"/>
+                    <constraint firstItem="6uB-mN-6WW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="KUK-AO-0Kg"/>
+                    <constraint firstAttribute="trailing" secondItem="6uB-mN-6WW" secondAttribute="trailing" id="M8S-Vu-41c"/>
+                    <constraint firstItem="xmu-wc-fze" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TOm-Gf-Ubk"/>
+                    <constraint firstItem="xmu-wc-fze" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rQC-Fe-jm5"/>
+                    <constraint firstAttribute="trailing" secondItem="xmu-wc-fze" secondAttribute="trailing" id="uyo-WB-133"/>
+                    <constraint firstAttribute="bottom" secondItem="6uB-mN-6WW" secondAttribute="bottom" id="wJS-7n-Ted"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="gradientView" destination="6uB-mN-6WW" id="0it-bo-wAS"/>
+                <outlet property="imgView" destination="xmu-wc-fze" id="sCi-Ay-YDt"/>
+                <outlet property="labelPlace" destination="oPM-Na-Qne" id="Qut-Ly-s1q"/>
+                <outlet property="labelStart" destination="0kh-eM-S2u" id="3dw-NB-Z9k"/>
+                <outlet property="lableTitle" destination="4PR-5d-xcy" id="fZd-PX-2rF"/>
+            </connections>
+            <point key="canvasLocation" x="84" y="101.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="nocontent" width="76" height="65"/>
+    </resources>
+</document>

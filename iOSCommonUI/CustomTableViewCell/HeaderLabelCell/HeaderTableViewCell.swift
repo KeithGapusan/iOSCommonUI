@@ -22,7 +22,7 @@ public class HeaderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
    public func getNib() -> UINib{
-    return UINib(nibName:xibName.headerCell, bundle: Bundle(for: HeaderTableViewCell.self))
+        return UINib(nibName:xibName.headerCell, bundle: Bundle().getBundle(swiftClass: HeaderTableViewCell.self))
     }
    public func getCellId() -> String{
         return cellIdentifier.headerCell

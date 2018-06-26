@@ -31,8 +31,6 @@
 		53E075C120DF657500549DE2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 53E075C020DF657500549DE2 /* README.md */; };
 		F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */; };
 		F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */ = {isa = PBXBuildFile; fileRef = F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */; };
-		F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */; };
-		F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */; };
 		F79826AF20A4FF3200AC12D8 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */; };
 		F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */; };
 		F798499B20B548F30098B4A4 /* ContentViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798499420B548F30098B4A4 /* ContentViewPage.swift */; };
@@ -50,6 +48,40 @@
 		F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3F2D520AD060E00B51D42 /* Loader.swift */; };
 		F7DA254D20D8D433006B555B /* LoaderCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA254B20D8D433006B555B /* LoaderCustomTableViewCell.swift */; };
 		F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA254C20D8D433006B555B /* LoaderCustomTableViewCell.xib */; };
+		F7DA7B5820E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B2820E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.swift */; };
+		F7DA7B5920E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B2920E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.xib */; };
+		F7DA7B5A20E21AB000C2E34E /* ImageViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B2B20E21AAA00C2E34E /* ImageViewTableViewCell.xib */; };
+		F7DA7B5B20E21AB000C2E34E /* ImageViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B2C20E21AAA00C2E34E /* ImageViewTableViewCell.swift */; };
+		F7DA7B5C20E21AB000C2E34E /* TextFieldTableViewCellV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B2E20E21AAA00C2E34E /* TextFieldTableViewCellV2.xib */; };
+		F7DA7B5D20E21AB000C2E34E /* TextFieldTableViewCellV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B2F20E21AAA00C2E34E /* TextFieldTableViewCellV2.swift */; };
+		F7DA7B5E20E21AB000C2E34E /* HeaderWithSeparatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3120E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.swift */; };
+		F7DA7B5F20E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3220E21AAB00C2E34E /* CheckBoxWithLabelTableViewCell.xib */; };
+		F7DA7B6020E21AB000C2E34E /* HeaderWithSeparatorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3320E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.xib */; };
+		F7DA7B6120E21AB000C2E34E /* CheckBoxWithLabelTableViewCellv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3520E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.swift */; };
+		F7DA7B6220E21AB000C2E34E /* CheckBoxWithLabelTableViewCellv2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3620E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.xib */; };
+		F7DA7B6320E21AB000C2E34E /* ImageViewTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3820E21AAC00C2E34E /* ImageViewTitleTableViewCell.swift */; };
+		F7DA7B6420E21AB000C2E34E /* ImageViewTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3920E21AAC00C2E34E /* ImageViewTitleTableViewCell.xib */; };
+		F7DA7B6520E21AB000C2E34E /* TableViewCell+ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3B20E21AAC00C2E34E /* TableViewCell+ImageView.swift */; };
+		F7DA7B6620E21AB000C2E34E /* TableViewCell+ImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3C20E21AAC00C2E34E /* TableViewCell+ImageView.xib */; };
+		F7DA7B6720E21AB000C2E34E /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3E20E21AAC00C2E34E /* TextFieldTableViewCell.xib */; };
+		F7DA7B6820E21AB000C2E34E /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3F20E21AAC00C2E34E /* TextFieldTableViewCell.swift */; };
+		F7DA7B6920E21AB000C2E34E /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4120E21AAD00C2E34E /* LabelCollectionViewCell.swift */; };
+		F7DA7B6A20E21AB000C2E34E /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B4220E21AAD00C2E34E /* LabelCollectionViewCell.xib */; };
+		F7DA7B6B20E21AB000C2E34E /* TwoColumnContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4420E21AAD00C2E34E /* TwoColumnContactTableViewCell.swift */; };
+		F7DA7B6C20E21AB000C2E34E /* TwoColumnContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B4520E21AAD00C2E34E /* TwoColumnContactTableViewCell.xib */; };
+		F7DA7B6D20E21AB000C2E34E /* SubmitBtnTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B4720E21AAD00C2E34E /* SubmitBtnTableViewCell.xib */; };
+		F7DA7B6E20E21AB000C2E34E /* SubmitBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4820E21AAD00C2E34E /* SubmitBtnTableViewCell.swift */; };
+		F7DA7B6F20E21AB000C2E34E /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4A20E21AAE00C2E34E /* TextViewTableViewCell.swift */; };
+		F7DA7B7020E21AB000C2E34E /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B4B20E21AAE00C2E34E /* TextViewTableViewCell.xib */; };
+		F7DA7B7120E21AB000C2E34E /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4D20E21AAE00C2E34E /* LabelTableViewCell.swift */; };
+		F7DA7B7220E21AB000C2E34E /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B4E20E21AAE00C2E34E /* LabelTableViewCell.xib */; };
+		F7DA7B7320E21AB000C2E34E /* LoaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B5020E21AAF00C2E34E /* LoaderTableViewCell.xib */; };
+		F7DA7B7420E21AB000C2E34E /* LoaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B5120E21AAF00C2E34E /* LoaderTableViewCell.swift */; };
+		F7DA7B7520E21AB000C2E34E /* PickerButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B5320E21AAF00C2E34E /* PickerButtonTableViewCell.swift */; };
+		F7DA7B7620E21AB000C2E34E /* PickerButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B5420E21AAF00C2E34E /* PickerButtonTableViewCell.xib */; };
+		F7DA7B7720E21AB000C2E34E /* ButtonTableViewCellv2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B5620E21AB000C2E34E /* ButtonTableViewCellv2.xib */; };
+		F7DA7B7820E21AB000C2E34E /* ButtonTableViewCellv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B5720E21AB000C2E34E /* ButtonTableViewCellv2.swift */; };
+		F7DA7B7A20E21C0500C2E34E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B7920E21C0400C2E34E /* GradientView.swift */; };
 		F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */; };
 		F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */; };
 		F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3DAB3207F1E6600AB53A8 /* Constant.swift */; };
@@ -84,8 +116,6 @@
 		53E075C020DF657500549DE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewGoogle.swift; sourceTree = "<group>"; };
 		F73F4ED7202AB45F004B5070 /* LoginViewGoogle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewGoogle.xib; sourceTree = "<group>"; };
-		F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
-		F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
 		F79826AD20A4FF3200AC12D8 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ForgotPasswordView.swift; path = ForgotPassword/ForgotPasswordView.swift; sourceTree = "<group>"; };
 		F79826AE20A4FF3200AC12D8 /* ForgotPasswordView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ForgotPasswordView.xib; path = ForgotPassword/ForgotPasswordView.xib; sourceTree = "<group>"; };
 		F798499420B548F30098B4A4 /* ContentViewPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewPage.swift; sourceTree = "<group>"; };
@@ -103,6 +133,40 @@
 		F7D3F2D520AD060E00B51D42 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		F7DA254B20D8D433006B555B /* LoaderCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderCustomTableViewCell.swift; sourceTree = "<group>"; };
 		F7DA254C20D8D433006B555B /* LoaderCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderCustomTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B2820E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxWithLabelTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B2920E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxWithLabelTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B2B20E21AAA00C2E34E /* ImageViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B2C20E21AAA00C2E34E /* ImageViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B2E20E21AAA00C2E34E /* TextFieldTableViewCellV2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCellV2.xib; sourceTree = "<group>"; };
+		F7DA7B2F20E21AAA00C2E34E /* TextFieldTableViewCellV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCellV2.swift; sourceTree = "<group>"; };
+		F7DA7B3120E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderWithSeparatorTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B3220E21AAB00C2E34E /* CheckBoxWithLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxWithLabelTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B3320E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderWithSeparatorTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B3520E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxWithLabelTableViewCellv2.swift; sourceTree = "<group>"; };
+		F7DA7B3620E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxWithLabelTableViewCellv2.xib; sourceTree = "<group>"; };
+		F7DA7B3820E21AAC00C2E34E /* ImageViewTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewTitleTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B3920E21AAC00C2E34E /* ImageViewTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewTitleTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B3B20E21AAC00C2E34E /* TableViewCell+ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewCell+ImageView.swift"; sourceTree = "<group>"; };
+		F7DA7B3C20E21AAC00C2E34E /* TableViewCell+ImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TableViewCell+ImageView.xib"; sourceTree = "<group>"; };
+		F7DA7B3E20E21AAC00C2E34E /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B3F20E21AAC00C2E34E /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4120E21AAD00C2E34E /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4220E21AAD00C2E34E /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B4420E21AAD00C2E34E /* TwoColumnContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnContactTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4520E21AAD00C2E34E /* TwoColumnContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoColumnContactTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B4720E21AAD00C2E34E /* SubmitBtnTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubmitBtnTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B4820E21AAD00C2E34E /* SubmitBtnTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitBtnTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4A20E21AAE00C2E34E /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4B20E21AAE00C2E34E /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B4D20E21AAE00C2E34E /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B4E20E21AAE00C2E34E /* LabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B5020E21AAF00C2E34E /* LoaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B5120E21AAF00C2E34E /* LoaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B5320E21AAF00C2E34E /* PickerButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerButtonTableViewCell.swift; sourceTree = "<group>"; };
+		F7DA7B5420E21AAF00C2E34E /* PickerButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerButtonTableViewCell.xib; sourceTree = "<group>"; };
+		F7DA7B5620E21AB000C2E34E /* ButtonTableViewCellv2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonTableViewCellv2.xib; sourceTree = "<group>"; };
+		F7DA7B5720E21AB000C2E34E /* ButtonTableViewCellv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCellv2.swift; sourceTree = "<group>"; };
+		F7DA7B7920E21C0400C2E34E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		F7E1736520A3E1FC0075D829 /* RegistrationV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationV2.swift; path = Registration/RegistrationV2.swift; sourceTree = "<group>"; };
 		F7E1736620A3E1FC0075D829 /* RegistrationV2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RegistrationV2.xib; path = Registration/RegistrationV2.xib; sourceTree = "<group>"; };
 		F7E3DAB3207F1E6600AB53A8 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -206,10 +270,10 @@
 		53E0759220DE784B00549DE2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				F7DA7B7920E21C0400C2E34E /* GradientView.swift */,
 				F7FC557D20D0BE9200547100 /* CustomTableViewCell */,
 				F7FC557720D0BBFE00547100 /* DynamicForm */,
 				F798499320B548F30098B4A4 /* Walkthrough */,
-				F742640020AEB0B700D226E2 /* TableViewCell */,
 				F7D3F2D420AD05FA00B51D42 /* ListLoader */,
 				F79826AB20A4FEDB00AC12D8 /* ForgotPassword */,
 				F7A99F62207DD89D0075391C /* DesignableView.swift */,
@@ -219,15 +283,6 @@
 				5336A78E1FCA61A900883093 /* LoginView */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F742640020AEB0B700D226E2 /* TableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				F742640220AEB15700D226E2 /* LabelCollectionViewCell.swift */,
-				F742640120AEB15600D226E2 /* LabelCollectionViewCell.xib */,
-			);
-			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 		F79826AB20A4FEDB00AC12D8 /* ForgotPassword */ = {
@@ -287,6 +342,151 @@
 			path = LoaderSpinnerCell;
 			sourceTree = "<group>";
 		};
+		F7DA7B2720E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B2820E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.swift */,
+				F7DA7B2920E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell.xib */,
+			);
+			path = CheckBoxWithLabelTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B2A20E21AAA00C2E34E /* ImageViewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B2B20E21AAA00C2E34E /* ImageViewTableViewCell.xib */,
+				F7DA7B2C20E21AAA00C2E34E /* ImageViewTableViewCell.swift */,
+			);
+			path = ImageViewTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B2D20E21AAA00C2E34E /* TextFieldTableViewCellV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B2E20E21AAA00C2E34E /* TextFieldTableViewCellV2.xib */,
+				F7DA7B2F20E21AAA00C2E34E /* TextFieldTableViewCellV2.swift */,
+			);
+			path = TextFieldTableViewCellV2;
+			sourceTree = "<group>";
+		};
+		F7DA7B3020E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B3120E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.swift */,
+				F7DA7B3220E21AAB00C2E34E /* CheckBoxWithLabelTableViewCell.xib */,
+				F7DA7B3320E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell.xib */,
+			);
+			path = HeaderWithSeparatorTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B3420E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B3520E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.swift */,
+				F7DA7B3620E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.xib */,
+			);
+			path = CheckBoxWithLabelTableViewCellv2;
+			sourceTree = "<group>";
+		};
+		F7DA7B3720E21AAC00C2E34E /* ImageViewTitleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B3820E21AAC00C2E34E /* ImageViewTitleTableViewCell.swift */,
+				F7DA7B3920E21AAC00C2E34E /* ImageViewTitleTableViewCell.xib */,
+			);
+			path = ImageViewTitleTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B3A20E21AAC00C2E34E /* TableViewCell_ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B3B20E21AAC00C2E34E /* TableViewCell+ImageView.swift */,
+				F7DA7B3C20E21AAC00C2E34E /* TableViewCell+ImageView.xib */,
+			);
+			path = TableViewCell_ImageView;
+			sourceTree = "<group>";
+		};
+		F7DA7B3D20E21AAC00C2E34E /* TextFieldTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B3E20E21AAC00C2E34E /* TextFieldTableViewCell.xib */,
+				F7DA7B3F20E21AAC00C2E34E /* TextFieldTableViewCell.swift */,
+			);
+			path = TextFieldTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4020E21AAD00C2E34E /* LabelCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B4120E21AAD00C2E34E /* LabelCollectionViewCell.swift */,
+				F7DA7B4220E21AAD00C2E34E /* LabelCollectionViewCell.xib */,
+			);
+			path = LabelCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4320E21AAD00C2E34E /* TwoColumnContactTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B4420E21AAD00C2E34E /* TwoColumnContactTableViewCell.swift */,
+				F7DA7B4520E21AAD00C2E34E /* TwoColumnContactTableViewCell.xib */,
+			);
+			path = TwoColumnContactTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4620E21AAD00C2E34E /* SubmitBtnTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B4720E21AAD00C2E34E /* SubmitBtnTableViewCell.xib */,
+				F7DA7B4820E21AAD00C2E34E /* SubmitBtnTableViewCell.swift */,
+			);
+			path = SubmitBtnTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4920E21AAE00C2E34E /* TextViewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B4A20E21AAE00C2E34E /* TextViewTableViewCell.swift */,
+				F7DA7B4B20E21AAE00C2E34E /* TextViewTableViewCell.xib */,
+			);
+			path = TextViewTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4C20E21AAE00C2E34E /* LabelTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B4D20E21AAE00C2E34E /* LabelTableViewCell.swift */,
+				F7DA7B4E20E21AAE00C2E34E /* LabelTableViewCell.xib */,
+			);
+			path = LabelTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B4F20E21AAF00C2E34E /* LoaderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B5020E21AAF00C2E34E /* LoaderTableViewCell.xib */,
+				F7DA7B5120E21AAF00C2E34E /* LoaderTableViewCell.swift */,
+			);
+			path = LoaderTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B5220E21AAF00C2E34E /* PickerButtonTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B5320E21AAF00C2E34E /* PickerButtonTableViewCell.swift */,
+				F7DA7B5420E21AAF00C2E34E /* PickerButtonTableViewCell.xib */,
+			);
+			path = PickerButtonTableViewCell;
+			sourceTree = "<group>";
+		};
+		F7DA7B5520E21AB000C2E34E /* ButtonTableViewCellv2 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DA7B5620E21AB000C2E34E /* ButtonTableViewCellv2.xib */,
+				F7DA7B5720E21AB000C2E34E /* ButtonTableViewCellv2.swift */,
+			);
+			path = ButtonTableViewCellv2;
+			sourceTree = "<group>";
+		};
 		F7FC557720D0BBFE00547100 /* DynamicForm */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +497,22 @@
 		F7FC557D20D0BE9200547100 /* CustomTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				F7DA7B5520E21AB000C2E34E /* ButtonTableViewCellv2 */,
+				F7DA7B2720E21AAA00C2E34E /* CheckBoxWithLabelTableViewCell */,
+				F7DA7B3420E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2 */,
+				F7DA7B3020E21AAB00C2E34E /* HeaderWithSeparatorTableViewCell */,
+				F7DA7B2A20E21AAA00C2E34E /* ImageViewTableViewCell */,
+				F7DA7B3720E21AAC00C2E34E /* ImageViewTitleTableViewCell */,
+				F7DA7B4020E21AAD00C2E34E /* LabelCollectionViewCell */,
+				F7DA7B4C20E21AAE00C2E34E /* LabelTableViewCell */,
+				F7DA7B4F20E21AAF00C2E34E /* LoaderTableViewCell */,
+				F7DA7B5220E21AAF00C2E34E /* PickerButtonTableViewCell */,
+				F7DA7B4620E21AAD00C2E34E /* SubmitBtnTableViewCell */,
+				F7DA7B3A20E21AAC00C2E34E /* TableViewCell_ImageView */,
+				F7DA7B3D20E21AAC00C2E34E /* TextFieldTableViewCell */,
+				F7DA7B2D20E21AAA00C2E34E /* TextFieldTableViewCellV2 */,
+				F7DA7B4920E21AAE00C2E34E /* TextViewTableViewCell */,
+				F7DA7B4320E21AAD00C2E34E /* TwoColumnContactTableViewCell */,
 				F7DA254A20D8B1F8006B555B /* LoaderSpinnerCell */,
 				F7DA254920D8B195006B555B /* HeaderLabelCell */,
 			);
@@ -406,19 +622,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7DA7B6020E21AB000C2E34E /* HeaderWithSeparatorTableViewCell.xib in Resources */,
 				5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */,
+				F7DA7B7320E21AB000C2E34E /* LoaderTableViewCell.xib in Resources */,
+				F7DA7B7620E21AB000C2E34E /* PickerButtonTableViewCell.xib in Resources */,
+				F7DA7B5C20E21AB000C2E34E /* TextFieldTableViewCellV2.xib in Resources */,
+				F7DA7B6D20E21AB000C2E34E /* SubmitBtnTableViewCell.xib in Resources */,
+				F7DA7B6C20E21AB000C2E34E /* TwoColumnContactTableViewCell.xib in Resources */,
+				F7DA7B7720E21AB000C2E34E /* ButtonTableViewCellv2.xib in Resources */,
+				F7DA7B6720E21AB000C2E34E /* TextFieldTableViewCell.xib in Resources */,
 				F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
+				F7DA7B6620E21AB000C2E34E /* TableViewCell+ImageView.xib in Resources */,
 				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
+				F7DA7B5F20E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
 				F7FC557C20D0BE6000547100 /* HeaderTableViewCell.xib in Resources */,
+				F7DA7B6220E21AB000C2E34E /* CheckBoxWithLabelTableViewCellv2.xib in Resources */,
 				F7E1736820A3E1FC0075D829 /* RegistrationV2.xib in Resources */,
+				F7DA7B7220E21AB000C2E34E /* LabelTableViewCell.xib in Resources */,
+				F7DA7B5920E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.xib in Resources */,
 				531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */,
+				F7DA7B7020E21AB000C2E34E /* TextViewTableViewCell.xib in Resources */,
+				F7DA7B6A20E21AB000C2E34E /* LabelCollectionViewCell.xib in Resources */,
 				5336A7921FCA61A900883093 /* LoginView.xib in Resources */,
 				F7A99F61207DD4D40075391C /* FeedBackView.xib in Resources */,
+				F7DA7B6420E21AB000C2E34E /* ImageViewTitleTableViewCell.xib in Resources */,
 				F7BDF6C720A16DF600D0BCC7 /* LoginViewGoogleV2.xib in Resources */,
 				53E075C120DF657500549DE2 /* README.md in Resources */,
-				F742640320AEB15700D226E2 /* LabelCollectionViewCell.xib in Resources */,
+				F7DA7B5A20E21AB000C2E34E /* ImageViewTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,19 +669,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AEB41120E0BD2500122A07 /* Extensions.swift in Sources */,
+				F7DA7B5D20E21AB000C2E34E /* TextFieldTableViewCellV2.swift in Sources */,
+				F7DA7B6320E21AB000C2E34E /* ImageViewTitleTableViewCell.swift in Sources */,
+				F7DA7B7420E21AB000C2E34E /* LoaderTableViewCell.swift in Sources */,
 				5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */,
+				F7DA7B6B20E21AB000C2E34E /* TwoColumnContactTableViewCell.swift in Sources */,
 				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
 				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */,
+				F7DA7B5820E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.swift in Sources */,
+				F7DA7B6520E21AB000C2E34E /* TableViewCell+ImageView.swift in Sources */,
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
 				F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */,
+				F7DA7B5B20E21AB000C2E34E /* ImageViewTableViewCell.swift in Sources */,
 				5336DC6F1FCA98F5006C64E2 /* Validation.swift in Sources */,
+				F7DA7B7120E21AB000C2E34E /* LabelTableViewCell.swift in Sources */,
 				F79849A120B548F30098B4A4 /* WalkthroughViewController1.swift in Sources */,
+				F7DA7B7820E21AB000C2E34E /* ButtonTableViewCellv2.swift in Sources */,
 				F7BDF6C620A16DF600D0BCC7 /* LoginViewGoogleV2.swift in Sources */,
+				F7DA7B6E20E21AB000C2E34E /* SubmitBtnTableViewCell.swift in Sources */,
 				5336DC901FCAA008006C64E2 /* Registration.swift in Sources */,
 				F798499C20B548F30098B4A4 /* WalkThroughPageViewController.swift in Sources */,
+				F7DA7B6F20E21AB000C2E34E /* TextViewTableViewCell.swift in Sources */,
+				F7DA7B7A20E21C0500C2E34E /* GradientView.swift in Sources */,
+				F7DA7B6120E21AB000C2E34E /* CheckBoxWithLabelTableViewCellv2.swift in Sources */,
 				F798499D20B548F30098B4A4 /* PageNewViewController.swift in Sources */,
 				5336A7911FCA61A900883093 /* LoginView.swift in Sources */,
+				F7DA7B6820E21AB000C2E34E /* TextFieldTableViewCell.swift in Sources */,
+				F7DA7B5E20E21AB000C2E34E /* HeaderWithSeparatorTableViewCell.swift in Sources */,
 				F798499B20B548F30098B4A4 /* ContentViewPage.swift in Sources */,
 				F7E3DAB4207F1E6600AB53A8 /* Constant.swift in Sources */,
 				F7A99F63207DD89D0075391C /* DesignableView.swift in Sources */,
@@ -457,8 +704,9 @@
 				F73F4ED6202AB449004B5070 /* LoginViewGoogle.swift in Sources */,
 				F7D3F2D620AD060E00B51D42 /* Loader.swift in Sources */,
 				F7FC557B20D0BE6000547100 /* HeaderTableViewCell.swift in Sources */,
-				F742640420AEB15700D226E2 /* LabelCollectionViewCell.swift in Sources */,
 				F7DA254D20D8D433006B555B /* LoaderCustomTableViewCell.swift in Sources */,
+				F7DA7B6920E21AB000C2E34E /* LabelCollectionViewCell.swift in Sources */,
+				F7DA7B7520E21AB000C2E34E /* PickerButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
