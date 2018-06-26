@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MyriadPro-Bold.ttf">
+            <string>MyriadPro-Bold</string>
+        </array>
+        <array key="MyriadPro-Regular.ttf">
+            <string>MyriadPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellTwoColumnContact" rowHeight="129" id="KGk-i7-Jjw" customClass="TwoColumnContactTableViewCell" customModule="StraightArrow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="128.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9lL-Mr-u3F">
+                        <rect key="frame" x="0.0" y="0.0" width="168.5" height="128"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Department Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqw-dv-0e4">
+                                <rect key="frame" x="0.0" y="0.0" width="163.5" height="14"/>
+                                <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="14"/>
+                                <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EL0-ag-b9e">
+                                <rect key="frame" x="0.0" y="19" width="163.5" height="109"/>
+                                <string key="text">AU +1234567890
+AU +1234567890</string>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jqw-dv-0e4" firstAttribute="leading" secondItem="9lL-Mr-u3F" secondAttribute="leading" id="UA7-ua-qtn"/>
+                            <constraint firstAttribute="trailing" secondItem="jqw-dv-0e4" secondAttribute="trailing" constant="5" id="W3q-eq-XPe"/>
+                            <constraint firstItem="EL0-ag-b9e" firstAttribute="top" secondItem="jqw-dv-0e4" secondAttribute="bottom" constant="5" id="XT4-bu-Io5"/>
+                            <constraint firstAttribute="bottom" secondItem="EL0-ag-b9e" secondAttribute="bottom" id="ai0-IL-DJS"/>
+                            <constraint firstItem="EL0-ag-b9e" firstAttribute="leading" secondItem="9lL-Mr-u3F" secondAttribute="leading" id="gIr-q3-qer"/>
+                            <constraint firstItem="jqw-dv-0e4" firstAttribute="top" secondItem="9lL-Mr-u3F" secondAttribute="top" id="i0a-DM-ISQ"/>
+                            <constraint firstAttribute="trailing" secondItem="EL0-ag-b9e" secondAttribute="trailing" constant="5" id="mJ9-dt-J3R"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t22-Ap-Zth">
+                        <rect key="frame" x="168.5" y="0.0" width="168.5" height="128"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Department Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ov-9I-fKc">
+                                <rect key="frame" x="0.0" y="0.0" width="168.5" height="14"/>
+                                <fontDescription key="fontDescription" name="MyriadPro-Bold" family="Myriad Pro" pointSize="14"/>
+                                <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-f4-1aL">
+                                <rect key="frame" x="0.0" y="19" width="168.5" height="109"/>
+                                <string key="text">AU +1234567890
+AU +1234567890</string>
+                                <fontDescription key="fontDescription" name="MyriadPro-Regular" family="Myriad Pro" pointSize="12"/>
+                                <color key="textColor" red="0.2156862745" green="0.2274509804" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Ov-9I-fKc" firstAttribute="top" secondItem="t22-Ap-Zth" secondAttribute="top" id="Qwh-HW-u7A"/>
+                            <constraint firstItem="kfH-f4-1aL" firstAttribute="top" secondItem="3Ov-9I-fKc" secondAttribute="bottom" constant="5" id="U38-c4-wLo"/>
+                            <constraint firstItem="3Ov-9I-fKc" firstAttribute="leading" secondItem="t22-Ap-Zth" secondAttribute="leading" id="cZT-ur-TgH"/>
+                            <constraint firstAttribute="trailing" secondItem="kfH-f4-1aL" secondAttribute="trailing" id="drx-w4-cyK"/>
+                            <constraint firstAttribute="bottom" secondItem="kfH-f4-1aL" secondAttribute="bottom" id="fVZ-zQ-Vmm"/>
+                            <constraint firstAttribute="trailing" secondItem="3Ov-9I-fKc" secondAttribute="trailing" id="hFI-Kj-NIX"/>
+                            <constraint firstItem="kfH-f4-1aL" firstAttribute="leading" secondItem="t22-Ap-Zth" secondAttribute="leading" id="jJe-4T-DhQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="t22-Ap-Zth" secondAttribute="bottom" id="A4L-Jk-myi"/>
+                    <constraint firstAttribute="trailing" secondItem="t22-Ap-Zth" secondAttribute="trailing" id="FTx-vg-ecU"/>
+                    <constraint firstItem="9lL-Mr-u3F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IVp-Ag-KlQ"/>
+                    <constraint firstItem="t22-Ap-Zth" firstAttribute="leading" secondItem="9lL-Mr-u3F" secondAttribute="trailing" id="LXd-MU-8Mu"/>
+                    <constraint firstItem="t22-Ap-Zth" firstAttribute="width" secondItem="9lL-Mr-u3F" secondAttribute="width" id="Uwj-nT-LVZ"/>
+                    <constraint firstAttribute="bottom" secondItem="9lL-Mr-u3F" secondAttribute="bottom" id="dlA-B8-wMY"/>
+                    <constraint firstItem="9lL-Mr-u3F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ovd-ah-xqm"/>
+                    <constraint firstItem="t22-Ap-Zth" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="q3d-X5-Z24"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="42.5" y="96.5"/>
+        </tableViewCell>
+    </objects>
+</document>

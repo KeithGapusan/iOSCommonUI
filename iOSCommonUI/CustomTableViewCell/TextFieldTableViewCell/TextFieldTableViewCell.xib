@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HERMTH__.ttf">
+            <string>Hermes-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextFieldTableViewCell" customModule="StraightArrow" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell_label_textfield" rowHeight="73" id="JCP-Oj-Bzi" customClass="TextFieldTableViewCell" customModule="StraightArrow" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="JCP-Oj-Bzi" id="8z7-hf-bmV">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-wD-vf0">
+                        <rect key="frame" x="23" y="5" width="363" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="FLh-cv-iqZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Hermes-Thin" family="Hermes-Thin" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.16078431369999999" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12F-Q7-n0k">
+                        <rect key="frame" x="368" y="34.5" width="18" height="18"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="g0E-JW-qid"/>
+                            <constraint firstAttribute="height" constant="18" id="xRp-jB-vZM"/>
+                        </constraints>
+                        <state key="normal" image="edit"/>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5d-rQ-qSq">
+                        <rect key="frame" x="23" y="28.5" width="337" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="MUw-Uz-XJn"/>
+                        </constraints>
+                        <color key="textColor" red="0.28627450980000002" green="0.39607843139999999" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="Hermes-Thin" family="Hermes-Thin" pointSize="16"/>
+                        <textInputTraits key="textInputTraits"/>
+                        <connections>
+                            <action selector="didPressedPrimaryKey:" destination="-1" eventType="primaryActionTriggered" id="9ie-XM-ci6"/>
+                            <outlet property="delegate" destination="-1" id="048-KO-aJC"/>
+                        </connections>
+                    </textField>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="j5d-rQ-qSq" firstAttribute="leading" secondItem="8z7-hf-bmV" secondAttribute="leadingMargin" constant="3" id="98C-jc-DOe"/>
+                    <constraint firstItem="12F-Q7-n0k" firstAttribute="centerY" secondItem="j5d-rQ-qSq" secondAttribute="centerY" id="LEo-OP-LrT"/>
+                    <constraint firstItem="j5d-rQ-qSq" firstAttribute="top" secondItem="pLw-wD-vf0" secondAttribute="bottom" constant="3" id="O58-Bu-Q6B"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="12F-Q7-n0k" secondAttribute="trailing" constant="3" id="cEV-fM-cdN"/>
+                    <constraint firstItem="pLw-wD-vf0" firstAttribute="leading" secondItem="8z7-hf-bmV" secondAttribute="leadingMargin" constant="3" id="g9k-Xj-iby"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pLw-wD-vf0" secondAttribute="trailing" constant="3" id="jyP-QN-I1E"/>
+                    <constraint firstItem="12F-Q7-n0k" firstAttribute="leading" secondItem="j5d-rQ-qSq" secondAttribute="trailing" constant="8" id="kS4-ZV-CR2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="j5d-rQ-qSq" secondAttribute="bottom" constant="5" id="mZP-ES-HDg"/>
+                    <constraint firstItem="pLw-wD-vf0" firstAttribute="top" secondItem="8z7-hf-bmV" secondAttribute="top" constant="5" id="nv4-w8-Gib"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="btnEdit" destination="12F-Q7-n0k" id="TDm-zC-BjH"/>
+                <outlet property="labelCell" destination="pLw-wD-vf0" id="T8d-bV-nbB"/>
+                <outlet property="tfCell" destination="j5d-rQ-qSq" id="axS-5h-iIP"/>
+            </connections>
+            <point key="canvasLocation" x="-48.5" y="-214.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edit" width="32" height="32"/>
+    </resources>
+</document>
