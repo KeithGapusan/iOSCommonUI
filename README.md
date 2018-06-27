@@ -94,6 +94,7 @@ var headerCell : HeaderTableViewCell!
 
 ```
 Here are the list of available cell class.
+
     -HeaderTableViewCell
     -LoaderCustomTableViewCell
     -TwoColumnContactTableViewCell
