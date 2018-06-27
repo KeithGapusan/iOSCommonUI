@@ -26,4 +26,14 @@ class SubmitBtnTableViewCell: UITableViewCell {
 //        }
     }
     
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.SubmitBtnTableViewCell, bundle: Bundle().getBundle(swiftClass: SubmitBtnTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.SubmitBtnTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
+    
 }

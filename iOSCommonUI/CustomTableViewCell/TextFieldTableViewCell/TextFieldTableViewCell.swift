@@ -35,4 +35,15 @@ class TextFieldTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.TextFieldTableViewCell, bundle: Bundle().getBundle(swiftClass: TextFieldTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.TextFieldTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
+    
+    
 }

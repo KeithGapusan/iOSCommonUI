@@ -25,5 +25,13 @@ class ImageViewTitleTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.ImageViewTitleTableViewCell, bundle: Bundle().getBundle(swiftClass: ImageViewTitleTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.ImageViewTitleTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

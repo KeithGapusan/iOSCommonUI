@@ -22,5 +22,13 @@ class HeaderWithSeparatorTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.HeaderWithSeparatorTableViewCell, bundle: Bundle().getBundle(swiftClass: HeaderWithSeparatorTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.HeaderWithSeparatorTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

@@ -21,5 +21,13 @@ class LabelCollectionViewCell: UICollectionViewCell {
 
         
     }
-
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.LabelCollectionViewCell, bundle: Bundle().getBundle(swiftClass: LabelCollectionViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.LabelCollectionViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

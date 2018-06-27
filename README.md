@@ -38,6 +38,41 @@ var feedbackDelegate : FeedbackDelegate!
 
 }
 ```
+
+### LoginView
+A custom view for internal app rating.
+
+Example:
+```swift
+import iOSCommonUI
+
+class YourViewController: UIViewController, LoginGoogleDelegateV2 {
+
+var loginView : LoginViewGoogleV2!
+var loginViewDelegate : LoginGoogleDelegateV2!
+
+    //loginView implements protocol
+    func didUserPressSubmit(sender: [String : Any]) {
+        /**sender will return the Dictionary of textfields and ratings**/
+        self.showLogin(show: false)
+    }
+
+    fileprivate func showLogin(show: Bool) {
+        if show {
+            loginView = FeedBackView(frame:  self.view.frame)
+
+            self.view.addSubview(loginView)
+            loginView.delegate = self
+        }else{
+            self.loginView.removeFromSuperview()
+            self.loginView = nil
+        }
+    }
+
+}
+```
+
+
 ### Custom TableView Cell
 ```swift
 import iOSCommonUI
@@ -58,6 +93,27 @@ var headerCell : HeaderTableViewCell!
 
 
 ```
+Here are the list of available cell class.
+    -HeaderTableViewCell
+    -LoaderCustomTableViewCell
+    -TwoColumnContactTableViewCell
+    -TextViewTableViewCell
+    -TextFieldTableViewCellV2
+    -TextFieldTableViewCell
+    -TableViewCell_ImageView
+    -SubmitBtnTableViewCell
+    -PickerButtonTableViewCell
+    -LoaderTableViewCell
+    -LabelTableViewCell
+    -LabelCollectionViewCell
+    -ImageViewTitleTableViewCell
+    -ImageViewTableViewCell
+    -HeaderWithSeparatorTableViewCell
+    -CheckBoxWithLabelTableViewCellv2
+    -CheckBoxWithLabelTableViewCell
+    -ButtonTableViewCellv2
+
+
 ### Shimmery Loader
 
 ```swift

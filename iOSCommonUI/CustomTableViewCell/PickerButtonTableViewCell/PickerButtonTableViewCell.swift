@@ -24,5 +24,13 @@ class PickerButtonTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.PickerButtonTableViewCell, bundle: Bundle().getBundle(swiftClass: PickerButtonTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.PickerButtonTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

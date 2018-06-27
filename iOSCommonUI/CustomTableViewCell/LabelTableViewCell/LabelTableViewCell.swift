@@ -23,5 +23,13 @@ class LabelTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.LabelTableViewCell, bundle: Bundle().getBundle(swiftClass: LabelTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.LabelTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

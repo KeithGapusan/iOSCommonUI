@@ -21,5 +21,13 @@ class LoaderTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.LoaderTableViewCell , bundle: Bundle().getBundle(swiftClass: LoaderTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.LoaderTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

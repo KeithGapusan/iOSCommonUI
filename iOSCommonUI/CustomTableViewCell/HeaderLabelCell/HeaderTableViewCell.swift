@@ -22,10 +22,10 @@ public class HeaderTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
    public func getNib() -> UINib{
-        return UINib(nibName:xibName.headerCell, bundle: Bundle().getBundle(swiftClass: HeaderTableViewCell.self))
+        return UINib(nibName:xibName.HeaderTableViewCell, bundle: Bundle().getBundle(swiftClass: HeaderTableViewCell.self))
     }
    public func getCellId() -> String{
-        return cellIdentifier.headerCell
+        return cellIdentifier.HeaderTableViewCell
     }
     public func registerNib(tableView:UITableView){
        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
