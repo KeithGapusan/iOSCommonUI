@@ -121,3 +121,4 @@ Here are the list of available cell class.
   Loader.addLoaderTo(self.tableView)
 ```
 
+
