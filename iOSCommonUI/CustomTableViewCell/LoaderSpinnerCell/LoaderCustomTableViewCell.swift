@@ -21,10 +21,10 @@ public class LoaderCustomTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     public func getNib() -> UINib{
-        return UINib(nibName:xibName.loaderCell, bundle: Bundle().getBundle(swiftClass: LoaderCustomTableViewCell.self))
+        return UINib(nibName:xibName.LoaderCustomTableViewCell, bundle: Bundle().getBundle(swiftClass: LoaderCustomTableViewCell.self))
     }
     public func getCellId() -> String{
-        return cellIdentifier.loaderCell
+        return cellIdentifier.LoaderCustomTableViewCell
     }
     public func registerNib(tableView:UITableView){
         tableView.register(getNib(), forCellReuseIdentifier: getCellId())

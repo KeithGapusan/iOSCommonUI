@@ -23,5 +23,13 @@ class CheckBoxWithLabelTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.CheckBoxWithLabelTableViewCell, bundle: Bundle().getBundle(swiftClass: CheckBoxWithLabelTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.CheckBoxWithLabelTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }

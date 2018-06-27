@@ -18,19 +18,47 @@ struct xibName {
     static let forgotPassword = "ForgotPasswordView"
 
     /* custom cell */
-    static let headerCell = "HeaderTableViewCell"
-    static let loaderCell = "LoaderCustomTableViewCell"
-    
-    static let imageViewTableViewCell = "ImageViewTableViewCell"
-    static let ImageViewTitleTableViewCell = "ImageViewTitleTableViewCell"
-    static let LabelCollectionViewCell  = "LabelCollectionViewCell"
+    static let HeaderTableViewCell = "HeaderTableViewCell"
+    static let LoaderCustomTableViewCell = "LoaderCustomTableViewCell"
     static let TwoColumnContactTableViewCell = "TwoColumnContactTableViewCell"
-    
-    
+    static let TextViewTableViewCell = "TextViewTableViewCell"
+    static let TextFieldTableViewCellV2 = "TextFieldTableViewCellV2"
+    static let TextFieldTableViewCell = "TextFieldTableViewCell"
+    static let TableViewCell_ImageView = "TableViewCell_ImageView"
+    static let SubmitBtnTableViewCell = "SubmitBtnTableViewCell"
+    static let PickerButtonTableViewCell = "PickerButtonTableViewCell"
+    static let LoaderTableViewCell = "LoaderTableViewCell"
+    static let LabelTableViewCell = "LabelTableViewCell"
+    static let LabelCollectionViewCell = "LabelCollectionViewCell"
+    static let ImageViewTitleTableViewCell = "ImageViewTitleTableViewCell"
+    static let ImageViewTableViewCell = "ImageViewTableViewCell"
+    static let HeaderWithSeparatorTableViewCell = "HeaderWithSeparatorTableViewCell"
+    static let CheckBoxWithLabelTableViewCellv2 = "CheckBoxWithLabelTableViewCellv2"
+    static let CheckBoxWithLabelTableViewCell = "CheckBoxWithLabelTableViewCell"
+    static let ButtonTableViewCellv2 = "ButtonTableViewCellv2"
+
+
 }
 
 struct cellIdentifier {
-    static let headerCell = "header_label"
-    static let loaderCell = "cell_loader"
+    static let HeaderTableViewCell = "HeaderTableViewCell"
+    static let LoaderCustomTableViewCell = "LoaderCustomTableViewCell"
+    static let TwoColumnContactTableViewCell = "TwoColumnContactTableViewCell"
+    static let TextViewTableViewCell = "TextViewTableViewCell"
+    static let TextFieldTableViewCellV2 = "TextFieldTableViewCellV2"
+    static let TextFieldTableViewCell = "TextFieldTableViewCell"
+    static let TableViewCell_ImageView = "TableViewCell_ImageView"
+    static let SubmitBtnTableViewCell = "SubmitBtnTableViewCell"
+    static let PickerButtonTableViewCell = "PickerButtonTableViewCell"
+    static let LoaderTableViewCell = "LoaderTableViewCell"
+    static let LabelTableViewCell = "LabelTableViewCell"
+    static let LabelCollectionViewCell = "LabelCollectionViewCell"
+    static let ImageViewTitleTableViewCell = "ImageViewTitleTableViewCell"
+    static let ImageViewTableViewCell = "ImageViewTableViewCell"
+    static let HeaderWithSeparatorTableViewCell = "HeaderWithSeparatorTableViewCell"
+    static let CheckBoxWithLabelTableViewCellv2 = "CheckBoxWithLabelTableViewCellv2"
+    static let CheckBoxWithLabelTableViewCell = "CheckBoxWithLabelTableViewCell"
+    static let ButtonTableViewCellv2 = "ButtonTableViewCellv2"
+    static let imageViewTableViewCell = "ImageViewTableViewCell"
 }
 

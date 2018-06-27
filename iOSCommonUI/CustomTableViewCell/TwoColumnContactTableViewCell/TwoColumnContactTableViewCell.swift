@@ -20,5 +20,13 @@ class TwoColumnContactTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+    public func getNib() -> UINib{
+        return UINib(nibName:xibName.TwoColumnContactTableViewCell, bundle: Bundle().getBundle(swiftClass: TwoColumnContactTableViewCell.self))
+    }
+    public func getCellId() -> String{
+        return cellIdentifier.TwoColumnContactTableViewCell
+    }
+    public func registerNib(tableView:UITableView){
+        tableView.register(getNib(), forCellReuseIdentifier: getCellId())
+    }
 }
