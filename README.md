@@ -5,6 +5,14 @@
 
 A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders. 
 
+### CocoaPods
+https://cocoapods.org/pods/iOSCommonUI
+```swift
+target 'MyApp' do
+  pod 'iOSCommonUI', '~> 1.1'
+end
+```
+
 ### FeedbackView
 A custom view for internal app rating.
 
