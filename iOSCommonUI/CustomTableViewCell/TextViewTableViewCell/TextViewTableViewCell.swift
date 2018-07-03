@@ -8,21 +8,17 @@
 
 import UIKit
 
-class TextViewTableViewCell: UITableViewCell {
+public class TextViewTableViewCell: UITableViewCell {
     @IBOutlet weak var tvMessage: UITextView!
     @IBOutlet weak var lblTitle: UILabel!
 
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
-    }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.TextViewTableViewCell, bundle: Bundle().getBundle(swiftClass: TextViewTableViewCell.self))
     }

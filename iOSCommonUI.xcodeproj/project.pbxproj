@@ -60,8 +60,8 @@
 		F7DA7B6220E21AB000C2E34E /* CheckBoxWithLabelTableViewCellv2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3620E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.xib */; };
 		F7DA7B6320E21AB000C2E34E /* ImageViewTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3820E21AAC00C2E34E /* ImageViewTitleTableViewCell.swift */; };
 		F7DA7B6420E21AB000C2E34E /* ImageViewTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3920E21AAC00C2E34E /* ImageViewTitleTableViewCell.xib */; };
-		F7DA7B6520E21AB000C2E34E /* TableViewCell_ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3B20E21AAC00C2E34E /* TableViewCell_ImageView.swift */; };
-		F7DA7B6620E21AB000C2E34E /* TableViewCell_ImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3C20E21AAC00C2E34E /* TableViewCell_ImageView.xib */; };
+		F7DA7B6520E21AB000C2E34E /* TableViewCellImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3B20E21AAC00C2E34E /* TableViewCellImageView.swift */; };
+		F7DA7B6620E21AB000C2E34E /* TableViewCellImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3C20E21AAC00C2E34E /* TableViewCellImageView.xib */; };
 		F7DA7B6720E21AB000C2E34E /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DA7B3E20E21AAC00C2E34E /* TextFieldTableViewCell.xib */; };
 		F7DA7B6820E21AB000C2E34E /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B3F20E21AAC00C2E34E /* TextFieldTableViewCell.swift */; };
 		F7DA7B6920E21AB000C2E34E /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DA7B4120E21AAD00C2E34E /* LabelCollectionViewCell.swift */; };
@@ -144,8 +144,8 @@
 		F7DA7B3620E21AAB00C2E34E /* CheckBoxWithLabelTableViewCellv2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckBoxWithLabelTableViewCellv2.xib; sourceTree = "<group>"; };
 		F7DA7B3820E21AAC00C2E34E /* ImageViewTitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewTitleTableViewCell.swift; sourceTree = "<group>"; };
 		F7DA7B3920E21AAC00C2E34E /* ImageViewTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewTitleTableViewCell.xib; sourceTree = "<group>"; };
-		F7DA7B3B20E21AAC00C2E34E /* TableViewCell_ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell_ImageView.swift; sourceTree = "<group>"; };
-		F7DA7B3C20E21AAC00C2E34E /* TableViewCell_ImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell_ImageView.xib; sourceTree = "<group>"; };
+		F7DA7B3B20E21AAC00C2E34E /* TableViewCellImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellImageView.swift; sourceTree = "<group>"; };
+		F7DA7B3C20E21AAC00C2E34E /* TableViewCellImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellImageView.xib; sourceTree = "<group>"; };
 		F7DA7B3E20E21AAC00C2E34E /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
 		F7DA7B3F20E21AAC00C2E34E /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
 		F7DA7B4120E21AAD00C2E34E /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -397,8 +397,8 @@
 		F7DA7B3A20E21AAC00C2E34E /* TableViewCell_ImageView */ = {
 			isa = PBXGroup;
 			children = (
-				F7DA7B3B20E21AAC00C2E34E /* TableViewCell_ImageView.swift */,
-				F7DA7B3C20E21AAC00C2E34E /* TableViewCell_ImageView.xib */,
+				F7DA7B3B20E21AAC00C2E34E /* TableViewCellImageView.swift */,
+				F7DA7B3C20E21AAC00C2E34E /* TableViewCellImageView.xib */,
 			);
 			path = TableViewCell_ImageView;
 			sourceTree = "<group>";
@@ -630,7 +630,7 @@
 				F7DA7B6720E21AB000C2E34E /* TextFieldTableViewCell.xib in Resources */,
 				F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
-				F7DA7B6620E21AB000C2E34E /* TableViewCell_ImageView.xib in Resources */,
+				F7DA7B6620E21AB000C2E34E /* TableViewCellImageView.xib in Resources */,
 				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
 				F7FC557C20D0BE6000547100 /* HeaderTableViewCell.xib in Resources */,
@@ -674,7 +674,7 @@
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
 				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */,
 				F7DA7B5820E21AB000C2E34E /* CheckBoxWithLabelTableViewCell.swift in Sources */,
-				F7DA7B6520E21AB000C2E34E /* TableViewCell_ImageView.swift in Sources */,
+				F7DA7B6520E21AB000C2E34E /* TableViewCellImageView.swift in Sources */,
 				5336A7951FCA61DA00883093 /* LoginView.xib in Sources */,
 				F798499E20B548F30098B4A4 /* WalkThroughViewController.swift in Sources */,
 				F7DA7B5B20E21AB000C2E34E /* ImageViewTableViewCell.swift in Sources */,

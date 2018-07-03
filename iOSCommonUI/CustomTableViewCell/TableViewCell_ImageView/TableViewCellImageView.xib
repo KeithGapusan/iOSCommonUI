@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="cell_imgView" rowHeight="114" id="KGk-i7-Jjw" customClass="TableViewCell_ImageView" customModule="iOSCommonUI" customModuleProvider="target">
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="TableViewCellImageView" rowHeight="114" id="KGk-i7-Jjw" customClass="TableViewCellImageView" customModule="iOSCommonUI" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="114"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -34,7 +34,7 @@
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="virtual" translatesAutoresizingMaskIntoConstraints="NO" id="kD2-Z2-Mrj">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kD2-Z2-Mrj">
                                 <rect key="frame" x="120.5" y="16.5" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="lcR-rh-vhB"/>
@@ -47,6 +47,7 @@
                             <constraint firstItem="kD2-Z2-Mrj" firstAttribute="centerX" secondItem="S2t-Qg-rT4" secondAttribute="centerX" id="1Wd-GM-dzJ"/>
                             <constraint firstItem="SMg-CM-cdk" firstAttribute="leading" secondItem="S2t-Qg-rT4" secondAttribute="leading" constant="19" id="PIT-V5-5Qr"/>
                             <constraint firstAttribute="bottom" secondItem="SMg-CM-cdk" secondAttribute="bottom" constant="8.5" id="lwF-GY-ZqK"/>
+                            <constraint firstAttribute="height" priority="750" constant="113.5" id="tLQ-Jk-ZHd"/>
                             <constraint firstItem="kD2-Z2-Mrj" firstAttribute="centerY" secondItem="S2t-Qg-rT4" secondAttribute="centerY" id="uCG-rn-f2C"/>
                             <constraint firstAttribute="trailing" secondItem="SMg-CM-cdk" secondAttribute="trailing" constant="19" id="x9O-7f-mD1"/>
                         </constraints>
@@ -92,7 +93,4 @@
             <point key="canvasLocation" x="34" y="89"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="virtual" width="55" height="38"/>
-    </resources>
 </document>

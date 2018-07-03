@@ -8,19 +8,15 @@
 
 import UIKit
 
-class LoaderTableViewCell: UITableViewCell {
+public class LoaderTableViewCell: UITableViewCell {
 
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.LoaderTableViewCell , bundle: Bundle().getBundle(swiftClass: LoaderTableViewCell.self))
     }

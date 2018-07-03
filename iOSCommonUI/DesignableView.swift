@@ -44,6 +44,8 @@ extension UITextField {
         get {
             guard let currentAttributedPlaceholderColor = attributedPlaceholder?.attribute(NSAttributedStringKey.foregroundColor, at: 0, effectiveRange: nil) as? UIColor else { return UIColor.clear }
             return currentAttributedPlaceholderColor
+            
+          //  NSAttributedStringKey.forgr
         }
         set {
             guard let currentAttributedString = attributedPlaceholder else { return }

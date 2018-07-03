@@ -8,22 +8,13 @@
 
 import UIKit
 
-class SubmitBtnTableViewCell: UITableViewCell {
+public class SubmitBtnTableViewCell: UITableViewCell {
 
     @IBOutlet weak var btnSubmit: UIButton!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-//        var tempVal = 0
-//        while tempVal != 2{
-//            tempVal += 1
-//        }
+        
     }
     
     public func getNib() -> UINib{

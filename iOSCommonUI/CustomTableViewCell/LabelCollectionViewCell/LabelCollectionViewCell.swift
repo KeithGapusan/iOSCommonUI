@@ -8,17 +8,13 @@
 
 import UIKit
 
-class LabelCollectionViewCell: UICollectionViewCell {
+public class LabelCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var widthConstraint: NSLayoutConstraint!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-//        self.contentView.translatesAutoresizingMaskIntoConstraints = false
-//        let screenWidth = UIScreen.main.bounds.size.width
-//        widthConstraint.constant = screenWidth - (2 * 12)
-
         
     }
     public func getNib() -> UINib{

@@ -8,22 +8,17 @@
 
 import UIKit
 
-class ImageViewTableViewCell: UITableViewCell {
+public class ImageViewTableViewCell: UITableViewCell {
     @IBOutlet weak var labelPlace: UILabel!
     @IBOutlet weak var labelStart: UILabel!
     
     @IBOutlet weak var gradientView: GradientView!
     @IBOutlet weak var lableTitle: UILabel!
     @IBOutlet weak var imgView: UIImageView!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
     }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.ImageViewTableViewCell, bundle: Bundle().getBundle(swiftClass: ImageViewTableViewCell.self))
