@@ -8,23 +8,20 @@
 
 import UIKit
 
-class ImageViewTitleTableViewCell: UITableViewCell {
+public class ImageViewTitleTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
-    }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.ImageViewTitleTableViewCell, bundle: Bundle().getBundle(swiftClass: ImageViewTitleTableViewCell.self))
     }

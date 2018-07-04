@@ -8,18 +8,13 @@
 
 import UIKit
 
-class ButtonTableViewCellv2: UITableViewCell {
+public class ButtonTableViewCellv2: UITableViewCell {
 
     @IBOutlet weak var btnObject: UIButton!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
     }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.ButtonTableViewCellv2, bundle: Bundle().getBundle(swiftClass: ButtonTableViewCellv2.self))

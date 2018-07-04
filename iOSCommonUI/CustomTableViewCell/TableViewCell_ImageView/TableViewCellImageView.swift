@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell_ImageView: UITableViewCell {
+public class TableViewCellImageView: UITableViewCell {
 
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var imgViewCenter: UIImageView!
@@ -18,21 +18,18 @@ class TableViewCell_ImageView: UITableViewCell {
     @IBOutlet var imgTopSpacing: NSLayoutConstraint!
     @IBOutlet var imgBottomSpacing: NSLayoutConstraint!
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+  
     public func getNib() -> UINib{
-        return UINib(nibName:xibName.TableViewCell_ImageView, bundle: Bundle().getBundle(swiftClass: TableViewCell_ImageView.self))
+        return UINib(nibName:xibName.TableViewCellImageView, bundle: Bundle().getBundle(swiftClass: TableViewCellImageView.self))
     }
     public func getCellId() -> String{
-        return cellIdentifier.TableViewCell_ImageView
+        return cellIdentifier.TableViewCellImageView
     }
     public func registerNib(tableView:UITableView){
         tableView.register(getNib(), forCellReuseIdentifier: getCellId())

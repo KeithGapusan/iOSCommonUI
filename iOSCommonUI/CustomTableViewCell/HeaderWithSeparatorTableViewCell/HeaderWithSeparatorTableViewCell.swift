@@ -8,19 +8,14 @@
 
 import UIKit
 
-class HeaderWithSeparatorTableViewCell: UITableViewCell {
+public class HeaderWithSeparatorTableViewCell: UITableViewCell {
 
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var viewSeparator: UIView!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+        
     }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.HeaderWithSeparatorTableViewCell, bundle: Bundle().getBundle(swiftClass: HeaderWithSeparatorTableViewCell.self))

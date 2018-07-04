@@ -8,12 +8,12 @@
 
 import UIKit
 
-class TextFieldTableViewCellV2: UITableViewCell {
+public class TextFieldTableViewCellV2: UITableViewCell {
     @IBOutlet weak var tfCell: UITextField!
     
     @IBOutlet weak var labelCell: UILabel!
 
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
@@ -22,11 +22,6 @@ class TextFieldTableViewCellV2: UITableViewCell {
        // self.tfCell.setTextFieldBorderColor(customColor.borderGray)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     public func getNib() -> UINib{
         return UINib(nibName:xibName.TextFieldTableViewCellV2, bundle: Bundle().getBundle(swiftClass: TextFieldTableViewCellV2.self))
     }

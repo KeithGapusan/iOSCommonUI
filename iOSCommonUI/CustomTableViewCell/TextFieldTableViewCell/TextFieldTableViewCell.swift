@@ -8,12 +8,12 @@
 
 import UIKit
 
-class TextFieldTableViewCell: UITableViewCell {
+public class TextFieldTableViewCell: UITableViewCell {
     @IBOutlet weak var tfCell: UITextField!
     @IBOutlet weak var btnEdit: UIButton!
 
     @IBOutlet weak var labelCell: UILabel!
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
@@ -27,14 +27,7 @@ class TextFieldTableViewCell: UITableViewCell {
         print("primaryKey pressed : \(sender)")
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        
-        
-        // Configure the view for the selected state
-    }
-
+ 
     public func getNib() -> UINib{
         return UINib(nibName:xibName.TextFieldTableViewCell, bundle: Bundle().getBundle(swiftClass: TextFieldTableViewCell.self))
     }

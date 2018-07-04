@@ -15,11 +15,7 @@ public class LoaderCustomTableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    override public func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+  
     public func getNib() -> UINib{
         return UINib(nibName:xibName.LoaderCustomTableViewCell, bundle: Bundle().getBundle(swiftClass: LoaderCustomTableViewCell.self))
     }
