@@ -99,7 +99,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; };
+		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336A7771FCA5EAF00883093 /* iOSCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonUI.h; sourceTree = "<group>"; };
 		5336A7781FCA5EAF00883093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
