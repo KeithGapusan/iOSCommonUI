@@ -10,10 +10,10 @@ import UIKit
 
 public class PickerButtonTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var lblPicker: UILabel!
-    @IBOutlet weak var btnPicker: UIButton!
-    @IBOutlet weak var viewHolder: UIButton!
+    @IBOutlet public weak var lblTitle: UILabel!
+    @IBOutlet public weak var lblPicker: UILabel!
+    @IBOutlet public weak var btnPicker: UIButton!
+    @IBOutlet public weak var viewHolder: UIButton!
     override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -40,12 +40,7 @@ struct xibName {
 
 
 }
-struct xibNameCommon {
-     static let TableViewCellImageView = "TableViewCellImageView"
-}
-struct cellIdentifierCommon{
-     static let TableViewCellImageView = "TableViewCellImageView"
-}
+
 struct cellIdentifier {
     static let TableViewCellImageView = "TableViewCellImageView"
     static let HeaderTableViewCell = "HeaderTableViewCell"
@@ -54,7 +49,7 @@ struct cellIdentifier {
     static let TextViewTableViewCell = "TextViewTableViewCell"
     static let TextFieldTableViewCellV2 = "TextFieldTableViewCellV2"
     static let TextFieldTableViewCell = "TextFieldTableViewCell"
-    static let TableViewCell_ImageView = "TableViewCell_ImageView"
+  //  static let TableViewCell_ImageView = "TableViewCell_ImageView"
     static let SubmitBtnTableViewCell = "SubmitBtnTableViewCell"
     static let PickerButtonTableViewCell = "PickerButtonTableViewCell"
     static let LoaderTableViewCell = "LoaderTableViewCell"
