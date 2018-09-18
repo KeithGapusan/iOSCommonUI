@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol LoginDelegate {
+protocol LoginWagtalesViewDelegate {
     func btnClicked(sender:[String:Any])
 }
 
-public class LoginView: UIView, UITextFieldDelegate {
+public class LoginViewWagtales: UIView, UITextFieldDelegate {
     
     
     @IBOutlet public weak var btnFb: UIButton!
@@ -26,8 +26,9 @@ public class LoginView: UIView, UITextFieldDelegate {
     @IBOutlet public weak var connectWith: UILabel!
     @IBOutlet public weak var tfUserName: UITextField!
     @IBOutlet public weak var tfPassword: UITextField!
+    @IBOutlet public weak var labelFooter: UILabel!
     @IBOutlet public var view: UIView!
-    var delegate : LoginDelegate?
+    var delegate : LoginWagtalesViewDelegate?
 //    var shared = LoginView()
     
     public var loginHandler:((_ username: String, _ password: String) -> Void)?
@@ -36,8 +37,8 @@ public class LoginView: UIView, UITextFieldDelegate {
     
     public required init?(coder aDecoder: NSCoder) {
         super .init(coder: aDecoder)
-        let bundleIdentifier = Bundle().getBundle(swiftClass: LoginView.self)
-        UINib(nibName: "LoginView", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
+        let bundleIdentifier = Bundle().getBundle(swiftClass: LoginViewWagtales.self)
+        UINib(nibName: "LoginViewWagtales", bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)
         addSubview(view)
         view.frame = self.bounds
         
@@ -132,10 +133,4 @@ public class LoginView: UIView, UITextFieldDelegate {
     }
 }
 
-public enum buttonType{
-    case login
-    case forgotPass
-    case signUp
-    case facebook
-    case google
-}
+

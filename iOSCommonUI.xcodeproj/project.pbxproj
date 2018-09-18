@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */; };
+		532FDA02215119CF007A8808 /* LoginViewWagtales.xib in Resources */ = {isa = PBXBuildFile; fileRef = 532FDA00215119CE007A8808 /* LoginViewWagtales.xib */; };
+		532FDA03215119CF007A8808 /* LoginViewWagtales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532FDA01215119CF007A8808 /* LoginViewWagtales.swift */; };
 		5336A77E1FCA5EAF00883093 /* iOSCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */; };
 		5336A7831FCA5EAF00883093 /* iOSCommonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A7821FCA5EAF00883093 /* iOSCommonUITests.swift */; };
 		5336A7851FCA5EAF00883093 /* iOSCommonUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5336A7771FCA5EAF00883093 /* iOSCommonUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,6 +102,8 @@
 
 /* Begin PBXFileReference section */
 		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		532FDA00215119CE007A8808 /* LoginViewWagtales.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewWagtales.xib; sourceTree = "<group>"; };
+		532FDA01215119CF007A8808 /* LoginViewWagtales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewWagtales.swift; sourceTree = "<group>"; };
 		5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336A7771FCA5EAF00883093 /* iOSCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonUI.h; sourceTree = "<group>"; };
 		5336A7781FCA5EAF00883093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 		5336A78E1FCA61A900883093 /* LoginView */ = {
 			isa = PBXGroup;
 			children = (
+				532FDA01215119CF007A8808 /* LoginViewWagtales.swift */,
+				532FDA00215119CE007A8808 /* LoginViewWagtales.xib */,
 				5336A78F1FCA61A900883093 /* LoginView.swift */,
 				5336A7901FCA61A900883093 /* LoginView.xib */,
 				F73F4ED5202AB449004B5070 /* LoginViewGoogle.swift */,
@@ -629,6 +635,7 @@
 				F7DA7B6720E21AB000C2E34E /* TextFieldTableViewCell.xib in Resources */,
 				F7DA254E20D8D433006B555B /* LoaderCustomTableViewCell.xib in Resources */,
 				F73F4ED8202AB45F004B5070 /* LoginViewGoogle.xib in Resources */,
+				532FDA02215119CF007A8808 /* LoginViewWagtales.xib in Resources */,
 				F7DA7B6620E21AB000C2E34E /* TableViewCellImageView.xib in Resources */,
 				F79826B020A4FF3200AC12D8 /* ForgotPasswordView.xib in Resources */,
 				5336DC911FCAA008006C64E2 /* Registration.xib in Resources */,
@@ -669,6 +676,7 @@
 				F7DA7B7420E21AB000C2E34E /* LoaderTableViewCell.swift in Sources */,
 				5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */,
 				F7DA7B6B20E21AB000C2E34E /* TwoColumnContactTableViewCell.swift in Sources */,
+				532FDA03215119CF007A8808 /* LoginViewWagtales.swift in Sources */,
 				F7E1736720A3E1FC0075D829 /* RegistrationV2.swift in Sources */,
 				F7A99F60207DD4D40075391C /* FeedBackView.swift in Sources */,
 				F798499F20B548F30098B4A4 /* WalkthroughHolderViewController1.swift in Sources */,

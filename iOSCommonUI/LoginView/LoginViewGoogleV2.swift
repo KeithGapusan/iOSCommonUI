@@ -76,23 +76,9 @@ public class LoginViewGoogleV2: UIView{
         self.tfEmailAddress.text = email
     }
     public func instanceFromNib() -> UIView {
-        // tableView.register(UINib(nibName:xibName.headerSeparatorCell, bundle: nil), forCellReuseIdentifier: cellIdentifier.header_separator)//
-//        let bundleIdentifier = Bundle(for: LoginViewGoogleV2.self)
-//        print("CustomView == LoginView")
-//        print("bundle ID == \(bundleIdentifier)")
-//
-//        return UINib(nibName: xibName.loginWithGoogleV2, bundle: bundleIdentifier).instantiate(withOwner: self, options: nil)[0] as! UIView
-//        let podBundle = Bundle(path: Bundle(for: LoginViewGoogleV2.self).path(forResource: "iOSCommonUI", ofType: "bundle")!)
-   
+
         return UINib(nibName: xibName.loginWithGoogleV2, bundle: Bundle().getBundle(swiftClass: LoginViewGoogleV2.self)).instantiate(withOwner: self, options: nil)[0] as! UIView
     }
-    
-//    func getBundle() -> Bundle{
-//        guard let podBundle = Bundle(for: LoginViewGoogleV2.self).path(forResource: "iOSCommonUI", ofType: "bundle") else {
-//            return Bundle(for: LoginViewGoogleV2.self)
-//        }
-//        return Bundle(path: podBundle)!
-//    }
     func xibSetup() {
         view = self.instanceFromNib() as! LoginViewGoogleV2
         
