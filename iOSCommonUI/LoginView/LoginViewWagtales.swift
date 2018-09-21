@@ -27,6 +27,10 @@ public class LoginViewWagtales: UIView, UITextFieldDelegate {
     @IBOutlet public weak var tfUserName: UITextField!
     @IBOutlet public weak var tfPassword: UITextField!
     @IBOutlet public weak var labelFooter: UILabel!
+    @IBOutlet public weak var labelTfStatus:UILabel!
+    @IBOutlet public weak var viewTfEmailLine:UIView!
+    @IBOutlet public weak var viewTfPassLine:UIView!
+    
     @IBOutlet public var view: UIView!
     var delegate : LoginWagtalesViewDelegate?
 //    var shared = LoginView()

@@ -19,11 +19,14 @@
                 <outlet property="connectWith" destination="oin-pK-zH5" id="rSA-kc-2sg"/>
                 <outlet property="ivUserProfile" destination="VvX-LT-cRP" id="aKe-OF-IDM"/>
                 <outlet property="labelFooter" destination="nmg-Kv-7hf" id="ZtZ-9e-kjJ"/>
+                <outlet property="labelTfStatus" destination="hOy-F3-whN" id="zKi-ah-bKZ"/>
                 <outlet property="tfPassword" destination="0Zq-jn-XvZ" id="wS7-ck-lgQ"/>
                 <outlet property="tfUserName" destination="u4Z-kM-A1j" id="IUI-o2-sW7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="Aom-0u-5kP"/>
                 <outlet property="viewLine1" destination="Y5d-dD-Zy3" id="LQp-FG-odk"/>
                 <outlet property="viewLine2" destination="AeC-IN-slX" id="k8O-Fn-Yy6"/>
+                <outlet property="viewTfEmailLine" destination="Ll1-ZK-54s" id="HnD-J9-X1h"/>
+                <outlet property="viewTfPassLine" destination="uNS-fs-8nW" id="JNC-nD-Wuw"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
