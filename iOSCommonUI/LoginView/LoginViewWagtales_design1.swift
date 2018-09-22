@@ -15,9 +15,8 @@ protocol LoginWagtalesViewDelegate {
 public class LoginViewWagtales: UIView, UITextFieldDelegate {
     
     
-    @IBOutlet public weak var labelTitle: UILabel!
-    @IBOutlet public weak var labelTitleEmail: UILabel!
-    @IBOutlet public weak var labelTitlePassword: UILabel!
+    @IBOutlet weak var labelTitleEmail: UILabel!
+    @IBOutlet weak var labelTitlePassword: UILabel!
     
     @IBOutlet public weak var btnFb: UIButton!
     @IBOutlet public weak var btnGoogle: UIButton!
