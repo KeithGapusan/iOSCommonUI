@@ -8,8 +8,8 @@
 
 import UIKit
 
-protocol LoginWagtalesViewDelegate {
-    func btnClicked(sender:[String:Any])
+public protocol LoginWagtalesViewDelegate {
+    func didPressedButton(button:UIButton ,data:[String:Any]?)
 }
 
 public class LoginViewWagtales: UIView, UITextFieldDelegate {
@@ -36,10 +36,10 @@ public class LoginViewWagtales: UIView, UITextFieldDelegate {
     @IBOutlet public weak var viewTfPassLine:UIView!
     
     @IBOutlet public var view: UIView!
-    var delegate : LoginWagtalesViewDelegate?
+    public var delegate : LoginWagtalesViewDelegate?
 //    var shared = LoginView()
     
-    public var loginHandler:((_ username: String, _ password: String) -> Void)?
+ //   public var loginHandler:((_ username: String, _ password: String) -> Void)?
     
     
     
@@ -128,17 +128,35 @@ public class LoginViewWagtales: UIView, UITextFieldDelegate {
         button.clipsToBounds = true
     }
   //  Method cannot be declared public because its parameter uses an internal type
-    @IBAction func login(sender: AnyObject) {
-        
-        if(loginHandler == nil) {
-            print("No loginHandler defined")
-            return
+    @IBAction func didPressedButton(sender: UIButton) {
+        print("\(sender)")
+        switch sender {
+        case self.btnForgotPass:
+            delegate?.didPressedButton(button: sender, data: nil)
+        case self.btnLogin:
+//            if(loginHandler == nil) {
+//                print("No loginHandler defined")
+//                return
+//            }
+//            loginHandler!(tfUserName.text!, tfPassword.text!)
+            let dataGathered = ["email": tfUserName.text!, "pass":tfPassword.text!]
+            delegate?.didPressedButton(button: sender, data: dataGathered)
+
+        case self.btnFb:
+            delegate?.didPressedButton(button: sender, data: nil)
+        case self.btnGoogle:
+            delegate?.didPressedButton(button: sender, data: nil)
+        case self.btnSignUp:
+            delegate?.didPressedButton(button: sender, data: nil)
+            default:
+            print("not available")
         }
-        loginHandler!(tfUserName.text!, tfPassword.text!)
-        let dataGathered = ["email": tfUserName.text!, "pass":tfPassword.text!]
-        delegate?.btnClicked(sender: dataGathered)
-        
     }
+    
+    @IBAction func didpressedSignup(_ sender: Any) {
+        print("sign pressed")
+    }
+    
 }
 
 
