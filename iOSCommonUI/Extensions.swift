@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension Bundle{
     func getBundle(swiftClass:  Swift.AnyClass) -> Bundle{
@@ -51,3 +52,4 @@ extension UITextField {
     }
     
 }
+

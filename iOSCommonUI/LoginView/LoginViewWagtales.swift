@@ -10,6 +10,7 @@ import UIKit
 
 public protocol LoginWagtalesViewDelegate {
     func didPressedButton(button:UIButton ,data:[String:Any]?)
+    func btnClicked(sender:[String:Any])
 }
 
 public class LoginViewWagtales: UIView, UITextFieldDelegate {

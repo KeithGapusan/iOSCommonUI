@@ -1,5 +1,5 @@
 //
-//  WalkThroughPageViewController.swift
+//  WalkThroughPageViewController. swift
 //  StraightArrow
 //
 //  Created by Belinda Natividad on 09/03/2018.
