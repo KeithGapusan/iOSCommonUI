@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol LoginWagtalesViewDelegate {
-    func btnClicked(sender:[String:Any])
-}
+//protocol LoginWagtalesViewDelegate {
+//    func btnClicked(sender:[String:Any])
+//}
 
-public class LoginViewWagtales: UIView, UITextFieldDelegate {
+public class LoginViewWagtales_design1: UIView, UITextFieldDelegate {
     
     
     @IBOutlet weak var labelTitleEmail: UILabel!
