@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-extension Bundle{
+public extension Bundle{
     func getBundle(swiftClass:  Swift.AnyClass) -> Bundle{
         guard let podBundle = Bundle(for: swiftClass.self).path(forResource: "iOSCommonUI", ofType: "bundle") else {
             return Bundle(for: swiftClass.self)
