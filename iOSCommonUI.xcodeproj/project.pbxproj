@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		531BF73520DE651C008EE6CF /* iOSCommonUI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */; };
-		5336A77E1FCA5EAF00883093 /* iOSCommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */; };
 		5336A7831FCA5EAF00883093 /* iOSCommonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336A7821FCA5EAF00883093 /* iOSCommonUITests.swift */; };
 		5336A7851FCA5EAF00883093 /* iOSCommonUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5336A7771FCA5EAF00883093 /* iOSCommonUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5336DC361FCA697B006C64E2 /* Media.xcassets */; };
-		5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 5336DC361FCA697B006C64E2 /* Media.xcassets */; };
 		5362127321A1057D005ED2F1 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362127221A1057D005ED2F1 /* Validation.swift */; };
 		5362127821A105C8005ED2F1 /* RegistrationV2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5362127421A105C8005ED2F1 /* RegistrationV2.xib */; };
 		5362127921A105C8005ED2F1 /* Registration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5362127521A105C8005ED2F1 /* Registration.xib */; };
 		5362127A21A105C8005ED2F1 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362127621A105C8005ED2F1 /* Registration.swift */; };
 		5362127B21A105C8005ED2F1 /* RegistrationV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5362127721A105C8005ED2F1 /* RegistrationV2.swift */; };
+		5367D5ED21A1136100771DC7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5367D5EC21A1136000771DC7 /* Media.xcassets */; };
+		5367D5EF21A1210F00771DC7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5367D5EE21A1210F00771DC7 /* LICENSE */; };
 		53A7AA6E21A1022F001F0DE7 /* ButtonTableViewCellv2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53A7AA1621A1022E001F0DE7 /* ButtonTableViewCellv2.xib */; };
 		53A7AA6F21A1022F001F0DE7 /* ButtonTableViewCellv2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7AA1721A1022E001F0DE7 /* ButtonTableViewCellv2.swift */; };
 		53A7AA7021A1022F001F0DE7 /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A7AA1921A1022E001F0DE7 /* LabelTableViewCell.swift */; };
@@ -97,19 +96,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; };
+		531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iOSCommonUI.podspec; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5336A7741FCA5EAF00883093 /* iOSCommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSCommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336A7771FCA5EAF00883093 /* iOSCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSCommonUI.h; sourceTree = "<group>"; };
 		5336A7781FCA5EAF00883093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5336A77D1FCA5EAF00883093 /* iOSCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336A7821FCA5EAF00883093 /* iOSCommonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCommonUITests.swift; sourceTree = "<group>"; };
 		5336A7841FCA5EAF00883093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5336DC361FCA697B006C64E2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Assets/Media.xcassets; sourceTree = "<group>"; };
 		5362127221A1057D005ED2F1 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		5362127421A105C8005ED2F1 /* RegistrationV2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationV2.xib; sourceTree = "<group>"; };
 		5362127521A105C8005ED2F1 /* Registration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Registration.xib; sourceTree = "<group>"; };
 		5362127621A105C8005ED2F1 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
 		5362127721A105C8005ED2F1 /* RegistrationV2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationV2.swift; sourceTree = "<group>"; };
+		5367D5EC21A1136000771DC7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		5367D5EE21A1210F00771DC7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		53A7AA1621A1022E001F0DE7 /* ButtonTableViewCellv2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonTableViewCellv2.xib; sourceTree = "<group>"; };
 		53A7AA1721A1022E001F0DE7 /* ButtonTableViewCellv2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCellv2.swift; sourceTree = "<group>"; };
 		53A7AA1921A1022E001F0DE7 /* LabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
@@ -190,7 +190,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5336A77E1FCA5EAF00883093 /* iOSCommonUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +217,13 @@
 		5336A7761FCA5EAF00883093 /* iOSCommonUI */ = {
 			isa = PBXGroup;
 			children = (
+				5367D5EB21A1136000771DC7 /* Assets */,
 				5362126F21A103A8005ED2F1 /* Pod */,
 				5336A7771FCA5EAF00883093 /* iOSCommonUI.h */,
 				5336A7781FCA5EAF00883093 /* Info.plist */,
-				5336DC361FCA697B006C64E2 /* Media.xcassets */,
 				531BF73420DE651C008EE6CF /* iOSCommonUI.podspec */,
 				53E075C020DF657500549DE2 /* README.md */,
+				5367D5EE21A1210F00771DC7 /* LICENSE */,
 			);
 			path = iOSCommonUI;
 			sourceTree = "<group>";
@@ -270,6 +270,14 @@
 				53A7AAB021A102C2001F0DE7 /* Constant.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		5367D5EB21A1136000771DC7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5367D5EC21A1136000771DC7 /* Media.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		53A7AA1421A1022E001F0DE7 /* CustomTableViewCell */ = {
@@ -621,7 +629,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5336DC371FCA697B006C64E2 /* Media.xcassets in Resources */,
 				53A7AA9621A1022F001F0DE7 /* LoginView.xib in Resources */,
 				53A7AA8921A1022F001F0DE7 /* TwoColumnContactTableViewCell.xib in Resources */,
 				53A7AA8521A1022F001F0DE7 /* CheckBoxWithLabelTableViewCellv2.xib in Resources */,
@@ -632,6 +639,7 @@
 				53A7AA8B21A1022F001F0DE7 /* HeaderWithSeparatorTableViewCell.xib in Resources */,
 				53A7AA7121A1022F001F0DE7 /* LabelTableViewCell.xib in Resources */,
 				53A7AA7D21A1022F001F0DE7 /* LabelCollectionViewCell.xib in Resources */,
+				5367D5ED21A1136100771DC7 /* Media.xcassets in Resources */,
 				53A7AA6E21A1022F001F0DE7 /* ButtonTableViewCellv2.xib in Resources */,
 				53A7AA7621A1022F001F0DE7 /* ImageViewTableViewCell.xib in Resources */,
 				53A7AA9921A1022F001F0DE7 /* LoginViewWagtales_design1.xib in Resources */,
@@ -648,6 +656,7 @@
 				53A7AA8021A1022F001F0DE7 /* TextFieldTableViewCellV2.xib in Resources */,
 				53A7AA9E21A1022F001F0DE7 /* LoginViewWagtales.xib in Resources */,
 				53E075C120DF657500549DE2 /* README.md in Resources */,
+				5367D5EF21A1210F00771DC7 /* LICENSE in Resources */,
 				5362127821A105C8005ED2F1 /* RegistrationV2.xib in Resources */,
 				5362127921A105C8005ED2F1 /* Registration.xib in Resources */,
 				53A7AA8721A1022F001F0DE7 /* TableViewCellImageView.xib in Resources */,
@@ -676,7 +685,6 @@
 				53A7AAAE21A1022F001F0DE7 /* WalkThroughViewController.swift in Sources */,
 				53A7AA7E21A1022F001F0DE7 /* CheckBoxWithLabelTableViewCell.swift in Sources */,
 				53A7AAAA21A1022F001F0DE7 /* WalkthroughHolderViewController1.swift in Sources */,
-				5336DC3E1FCA71F0006C64E2 /* Media.xcassets in Sources */,
 				53A7AA8221A1022F001F0DE7 /* LoaderCustomTableViewCell.swift in Sources */,
 				53A7AA6F21A1022F001F0DE7 /* ButtonTableViewCellv2.swift in Sources */,
 				53A7AA8F21A1022F001F0DE7 /* SubmitBtnTableViewCell.swift in Sources */,
