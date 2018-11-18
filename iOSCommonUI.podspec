@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "iOSCommonUI"
-s.version      = "1.1.2"
+s.version      = "1.2"
 s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.3"
 s.summary      = "A boiler plate of iOS common custom view."
 
@@ -17,8 +17,8 @@ s.summary      = "A boiler plate of iOS common custom view."
 s.description  = "A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableViewCells, UICollectionViewCells and Loaders."
 
 s.homepage     = "https://github.com/KeithGapusan/iOSCommonUI"
-s.license      = {:type => "MIT", :file => "https://github.com/KeithGapusan/iOSCommonUI/blob/master/LICENSE"}
-# s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+#s.license      = {:type => "MIT", :file => "https://github.com/KeithGapusan/iOSCommonUI/blob/master/LICENSE"}
+ s.license      = { :type => "MIT", :file => "LICENSE.text" }
 
 s.author             = { "Keith Randell Gapusan" => "krsgapusan@gmail.com" }
 s.social_media_url   = "https://www.facebook.com/keithrednash"

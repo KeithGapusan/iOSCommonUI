@@ -7,6 +7,14 @@ A boiler plate of iOS common custom made UIViewControllers , UIViews, UITableVie
 
 ### CocoaPods
 https://cocoapods.org/pods/iOSCommonUI
+### Support:
+Swift 4.2 or later
+```swift
+target 'MyApp' do
+pod 'iOSCommonUI', '~> 1.2'
+end
+```
+Swift 3.0 to 4.0
 ```swift
 target 'MyApp' do
   pod 'iOSCommonUI', '~> 1.1'

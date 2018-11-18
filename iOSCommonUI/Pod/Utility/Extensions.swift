@@ -43,7 +43,7 @@ extension UITextField {
         var frameRect = tF.frame;
         frameRect.size.height = 50; // <-- Specify the height you want here.
         tF.frame = frameRect;
-        tF.borderStyle = UITextBorderStyle.none
+        tF.borderStyle = UITextField.BorderStyle.none
         
         
         //    return tF

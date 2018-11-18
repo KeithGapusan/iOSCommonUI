@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -231,7 +231,7 @@
                     </state>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yumi" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-DH-OAZ">
-                    <rect key="frame" x="147.5" y="83" width="80" height="80"/>
+                    <rect key="frame" x="147" y="83" width="80" height="80"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="80" id="Q9q-IS-PPc"/>
                         <constraint firstAttribute="height" constant="80" id="e3R-Aj-h4H"/>
@@ -289,8 +289,8 @@
     </objects>
     <resources>
         <image name="First_Name_Icon" width="23" height="23"/>
-        <image name="Mail_Icon" width="24" height="18.5"/>
-        <image name="Password_Icon" width="17" height="22.5"/>
-        <image name="Yumi" width="47" height="52.5"/>
+        <image name="Mail_Icon" width="24" height="18"/>
+        <image name="Password_Icon" width="17" height="22"/>
+        <image name="Yumi" width="47" height="52"/>
     </resources>
 </document>
