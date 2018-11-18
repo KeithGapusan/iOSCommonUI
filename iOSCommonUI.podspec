@@ -18,7 +18,7 @@ s.description  = "A boiler plate of iOS common custom made UIViewControllers , U
 
 s.homepage     = "https://github.com/KeithGapusan/iOSCommonUI"
 #s.license      = {:type => "MIT", :file => "https://github.com/KeithGapusan/iOSCommonUI/blob/master/LICENSE"}
- s.license      = { :type => "MIT", :file => "LICENSE.text" }
+ s.license      = { :type => "MIT", :file => "LICENSE" }
 
 s.author             = { "Keith Randell Gapusan" => "krsgapusan@gmail.com" }
 s.social_media_url   = "https://www.facebook.com/keithrednash"

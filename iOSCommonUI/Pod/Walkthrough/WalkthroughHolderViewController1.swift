@@ -76,7 +76,7 @@ class WalkthroughHolderViewController1: UIViewController , WalkThroughPageViewCo
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        w = self.childViewControllers[0] as!  WalkThroughPageViewController
+        w = self.children[0] as!  WalkThroughPageViewController
         w.pageDelegate = self
         w.setCurrentIndex(index: 0)
         w.setViewController(views: orderedViewControllers)
