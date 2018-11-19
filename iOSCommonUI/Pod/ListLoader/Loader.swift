@@ -198,7 +198,8 @@ extension UIView
         gradientAnimation.toValue = [NSNumber(value: 0 as Double),NSNumber(value: 1 as Double),NSNumber(value: 1 as Double),NSNumber(value: 1 + (gradientWidth - gradientFirstStop) as Double),NSNumber(value: 1 + gradientWidth as Double)]
         
         gradientAnimation.repeatCount = Float.infinity
-        gradientAnimation.fillMode = CAMediaTimingFillMode.forwards
+        gradientAnimation.fillMode = kCAFillModeForwards
+            //CAMediaTimingFillMode.forwards
         gradientAnimation.isRemovedOnCompletion = false
         gradientAnimation.duration = loaderDuration
         gradient.add(gradientAnimation ,forKey:"locations")
