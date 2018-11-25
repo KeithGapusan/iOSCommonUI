@@ -201,7 +201,7 @@ extension UIView
         #if swift(>=4.2)
             gradientAnimation.fillMode = CAMediaTimingFillMode.forwards
         #elseif swift(>=3.0)
-          gradientAnimation.fillMode = CAMediaTimingFillMode.forwards
+          gradientAnimation.fillMode = kCAFillModeForwards
             //
         #endif
         gradientAnimation.isRemovedOnCompletion = false
