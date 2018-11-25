@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "iOSCommonUI"
-s.version      = "1.1.2"
+s.version      = "1.1.3"
 s.source        = { :git => "https://github.com/KeithGapusan/iOSCommonUI.git", :tag => "v#{s.version}" } # = "v1.0.3"
 s.summary      = "A boiler plate of iOS common custom view."
 
