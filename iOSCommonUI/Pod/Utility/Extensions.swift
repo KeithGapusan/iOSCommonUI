@@ -19,24 +19,24 @@ public extension Bundle{
 }
 extension UITextField {
     
-    func setLeftPaddingPoints(_ amount:CGFloat){
+    open func setLeftPaddingPoints(_ amount:CGFloat){
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
         self.leftView = paddingView
         self.leftViewMode = .always
     }
     
-    func setRightPaddingPoints(_ amount:CGFloat) {
+    open func setRightPaddingPoints(_ amount:CGFloat) {
         let paddingView = UIView(frame: CGRect(x: 0, y: 0, width: amount, height: self.frame.size.height))
         self.rightView = paddingView
         self.rightViewMode = .always
     }
     
-    func setTextFieldBorderColor(_ color:UIColor) {
+   open func setTextFieldBorderColor(_ color:UIColor) {
         self.layer.borderColor = color.cgColor
         self.layer.borderWidth = 0.5
     }
     
-    func setDefaultLayout() {
+   open func setDefaultLayout() {
         
         let tF = UITextField.init()
         
@@ -57,7 +57,7 @@ extension UITextField {
 
 
 extension UIView{
-    func addConstraintsWithFormat(format: String, views:UIView...){
+   open func addConstraintsWithFormat(format: String, views:UIView...){
         var viewsDictionary = [String:UIView]()
         for (index, view) in views.enumerated(){
             let key = "v\(index)"
