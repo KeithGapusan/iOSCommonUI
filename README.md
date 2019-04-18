@@ -17,7 +17,7 @@ end
 Swift 3.0 to 4.0
 ```swift
 target 'MyApp' do
-  pod 'iOSCommonUI', '~> 1.1.3'
+  pod 'iOSCommonUI', '~> 1.1.4'
 end
 ```
 
